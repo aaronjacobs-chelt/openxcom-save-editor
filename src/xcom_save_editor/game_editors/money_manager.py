@@ -24,11 +24,17 @@ class MoneyManager(BaseManager):
         """
         Get funds formatted for display.
         
+        OpenXCom Extended saves store funds as a list where:
+        - funds[0] = previous month's ending funds
+        - funds[1] = current month's funds
+        
         Returns:
-            Tuple of (current_month, previous_month)
+            Tuple of (current_month_funds, previous_month_funds)
         """
         funds = self.get_funds()
-        return funds[0], funds[1]
+        current_month_funds = funds[1]   # Current month is at index 1
+        previous_month_funds = funds[0]  # Previous month is at index 0
+        return current_month_funds, previous_month_funds
     
     def set_funds(self, current_month: int, previous_month: int = None) -> None:
         """
@@ -51,9 +57,9 @@ class MoneyManager(BaseManager):
         if not isinstance(funds, list):
             funds = [0, 0]
         
-        # Update first two values, keep any additional values unchanged
-        funds[0] = current_month
-        funds[1] = previous_month
+        # Update values with correct indices, keep any additional values unchanged
+        funds[0] = previous_month  # Previous month at index 0
+        funds[1] = current_month   # Current month at index 1
         
         self.set_value('funds', funds)
     

@@ -58,6 +58,16 @@ class BaseManager:
         self.current_data = copy.deepcopy(self.original_data)
         self.changes_made = False
     
+    def update_original_data(self, new_data: Dict[str, Any]) -> None:
+        """Update original data after successful save and reset change tracking.
+        
+        Args:
+            new_data: The updated data dictionary
+        """
+        self.original_data = copy.deepcopy(new_data)
+        self.current_data = new_data
+        self.changes_made = False
+    
     def get_changes_summary(self) -> Dict[str, Dict[str, Any]]:
         """
         Get a summary of all changes made.

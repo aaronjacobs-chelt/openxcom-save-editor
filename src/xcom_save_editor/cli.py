@@ -763,6 +763,28 @@ class SaveEditorCLI:
                     else:
                         rprint("[red]✗ Failed to restore backup[/red]")
     
+    def _perform_save(self, create_backup: bool = True) -> bool:
+        """Internal method to perform the actual save operation.
+        
+        Args:
+            create_backup: Whether to create backup before saving
+            
+        Returns:
+            True if save was successful, False otherwise
+        """
+        if not self.editor:
+            return False
+            
+        success = self.editor.commit_changes(create_backup)
+        if success:
+            rprint("[green]✓ Changes saved successfully![/green]")
+            if create_backup:
+                rprint("[green]✓ Backup created before saving[/green]")
+        else:
+            rprint("[red]✗ Failed to save changes[/red]")
+        
+        return success
+    
     def handle_save(self):
         """Handle saving changes."""
         if not self.editor:
@@ -793,12 +815,7 @@ class SaveEditorCLI:
                 default=True
             ).execute()
             
-            if self.editor.commit_changes(create_backup):
-                rprint("[green]✓ Changes saved successfully![/green]")
-                if create_backup:
-                    rprint("[green]✓ Backup created before saving[/green]")
-            else:
-                rprint("[red]✗ Failed to save changes[/red]")
+            self._perform_save(create_backup)
     
     def handle_reset(self):
         """Handle resetting all changes."""
@@ -874,7 +891,7 @@ class SaveEditorCLI:
             default=True
         ).execute()
         
-        return self.editor.commit_changes(create_backup)
+        return self._perform_save(create_backup)
 
 
 def main():

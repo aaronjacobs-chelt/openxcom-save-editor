@@ -54,12 +54,15 @@ class OpenXComSaveEditor:
         """Get information about the current save file."""
         file_info = self.file_manager.get_file_info()
         
+        # Get header data from first YAML document, fall back to main save data
+        header = self.file_manager.header_data or {}
+        
         # Add game-specific information
         save_info = {
             **file_info,
-            'save_name': self.save_data.get('name', 'Unknown'),
-            'game_version': self.save_data.get('version', 'Unknown'),
-            'game_engine': self.save_data.get('engine', 'Unknown'),
+            'save_name': header.get('name', self.save_data.get('name', 'Unknown')),
+            'game_version': header.get('version', self.save_data.get('version', 'Unknown')),
+            'game_engine': header.get('engine', self.save_data.get('engine', 'Unknown')),
             'difficulty': self.save_data.get('difficulty', 0),
             'months_passed': self.save_data.get('monthsPassed', 0),
             'days_passed': self.save_data.get('daysPassed', 0),
@@ -156,6 +159,14 @@ class OpenXComSaveEditor:
             
             # Update original data to current state
             self.original_save_data = copy.deepcopy(self.save_data)
+            
+            # Reset change tracking in all managers
+            self.money_manager.update_original_data(self.save_data)
+            self.research_manager.update_original_data(self.save_data)
+            self.soldier_manager.update_original_data(self.save_data)
+            self.facility_manager.update_original_data(self.save_data)
+            self.production_manager.update_original_data(self.save_data)
+            self.inventory_manager.update_original_data(self.save_data)
             
             return True
             
