@@ -1,0 +1,3782 @@
+name: SaveGame
+version: Extended 8.3.4
+engine: Extended
+build: ' (v2025-07-20)'
+time:
+  second: 35
+  minute: 2
+  hour: 0
+  weekday: 5
+  day: 30
+  month: 1
+  year: 1997
+mods:
+- 'x-com-files ver: 3.8'
+- 'XCFAA_elite-commendations ver: 2.0.0'
+- 'XCF_elite-commendations ver: 2.1.0'
+- 'XCF_more-ufos ver: 1.1.0'
+- 'dark-geoscape ver: 1.0'
+- 'x-com-music ver: 2.0'
+- 'x-com-names ver: 2.2'
+---
+difficulty: 1
+end: 0
+monthsPassed: 1
+daysPassed: 32
+vehiclesLost: 0
+graphRegionToggles: ''
+graphCountryToggles: ''
+graphFinanceToggles: ''
+rng: 105104316423362491
+funds:
+- 2696270
+- 454802
+maintenance:
+- 561000
+- 0
+userNotes: []
+geoscapeDebugLog:
+- 'month: 0 script: CultApprehensionLotus id: 1 type: STR_CULT_APPREHENSION_BLACK_LOTUS race: STR_BLACK_LOTUS region: STR_PACIFIC
+  targetZone: 3 targetArea: 3'
+- 'month: 0 script: CultApprehensionDagon id: 2 type: STR_CULT_APPREHENSION_CHURCH_OF_DAGON race: STR_CHURCH_OF_DAGON region:
+  STR_EUROPE targetZone: 3 targetArea: 42'
+- 'month: 0 script: CultApprehensionZSRR id: 3 type: STR_CULT_APPREHENSION_ZSRR race: STR_ZSRR region: STR_SIBERIA targetZone:
+  3 targetArea: 4'
+- 'month: 0 script: CultApprehensionLotus1 id: 4 type: STR_CULT_APPREHENSION_BLACK_LOTUS race: STR_BLACK_LOTUS region: STR_SOUTH_EAST_ASIA
+  targetZone: 3 targetArea: 23'
+- 'month: 0 script: CultApprehensionZSRR1 id: 5 type: STR_CULT_APPREHENSION_ZSRR race: STR_ZSRR region: STR_CENTRAL_ASIA targetZone:
+  3 targetArea: 16'
+- 'month: 0 script: MonsterHuntSingleJungle1 id: 6 type: STR_MONSTERS_HUNT_SINGLE_JUNGLE race: STR_BULLFROG region: STR_CENTRAL_ASIA
+  targetZone: 13 targetArea: 0'
+- 'month: 0 script: MonsterHuntSingleDesert1 id: 7 type: STR_MONSTERS_HUNT_SINGLE_DESERT race: STR_WERECAT region: STR_CENTRAL_ASIA
+  targetZone: 14 targetArea: 11'
+- 'month: 0 script: cropCircles id: 8 type: STR_CROP_CIRCLES race: STR_FARMER region: STR_SOUTHERN_AFRICA targetZone: 1 targetArea:
+  3'
+- 'gameTime: 1996-12-30 12:00:05 eventSpawn: STR_CHUPACABRA_GORE_PILE days/hours: 12/17'
+- 'gameTime: 1996-12-30 12:00:05 eventSpawn: STR_QUARTERMASTER_INTRODUCTION days/hours: 0/10'
+- 'gameTime: 1996-12-30 12:00:05 eventSpawn: STR_CHIEF_ACCOUNTANT_INTRODUCTION days/hours: 0/16'
+- 'gameTime: 1996-12-30 12:00:05 eventSpawn: STR_INTELLIGENCE_OFFICER_INTRODUCTION days/hours: 0/1'
+- 'gameTime: 1996-12-30 12:00:05 eventSpawn: STR_CHIEF_MEDICAL_OFFICER_INTRODUCTION days/hours: 1/8'
+- 'gameTime: 1996-12-30 12:00:05 eventSpawn: STR_INVESTIGATED days/hours: 25/11'
+- 'gameTime: 1996-12-30 13:00:00 siteId: 1 siteType: STR_MONSTER_HUNT race: STR_BULLFROG region: STR_CENTRAL_ASIA deployment:
+  STR_MONSTERS_HUNT_SINGLE_JUNGLE missionId: 6 missionType: STR_MONSTERS_HUNT_SINGLE_JUNGLE'
+- 'gameTime: 1996-12-30 13:00:00 eventPopup: STR_INTELLIGENCE_OFFICER_INTRODUCTION'
+- 'gameTime: 1996-12-30 22:00:00 eventPopup: STR_QUARTERMASTER_INTRODUCTION'
+- 'gameTime: 1996-12-31 04:30:00 siteId: 1 siteType: STR_CULT_APPREHENSION race: STR_BLACK_LOTUS region: STR_PACIFIC city:
+  STR_TONGA deployment: STR_CULT_APPREHENSION_BLACK_LOTUS missionId: 1 missionType: STR_CULT_APPREHENSION_BLACK_LOTUS'
+- 'gameTime: 1996-12-31 04:30:00 eventPopup: STR_CHIEF_ACCOUNTANT_INTRODUCTION'
+- 'gameTime: 1996-12-31 20:00:00 eventPopup: STR_CHIEF_MEDICAL_OFFICER_INTRODUCTION'
+- 'month: 1 script: CultApprehensionEXALT id: 9 type: STR_CULT_APPREHENSION_EXALT race: STR_EXALT region: STR_NORTH_AMERICA
+  targetZone: 3 targetArea: 5'
+- 'month: 1 script: CultApprehensionLotus1 id: 10 type: STR_CULT_APPREHENSION_BLACK_LOTUS race: STR_BLACK_LOTUS region: STR_PACIFIC
+  targetZone: 3 targetArea: 5'
+- 'month: 1 script: CultApprehensionZSRR3 id: 11 type: STR_CULT_APPREHENSION_ZSRR race: STR_ZSRR region: STR_EUROPE targetZone:
+  3 targetArea: 63'
+- 'month: 1 script: CultApprehensionZSRR4 id: 12 type: STR_CULT_APPREHENSION_ZSRR race: STR_ZSRR region: STR_ARCTIC targetZone:
+  3 targetArea: 2'
+- 'month: 1 script: CultApprehensionEXALT7 id: 13 type: STR_CULT_APPREHENSION_EXALT race: STR_EXALT region: STR_SOUTH_AMERICA
+  targetZone: 3 targetArea: 11'
+- 'month: 1 script: MonsterHuntSingleTemperate1 id: 14 type: STR_MONSTERS_HUNT_SINGLE_TEMPERATE race: STR_FENRIR region: STR_SOUTH_EAST_ASIA
+  targetZone: 1 targetArea: 6'
+- 'month: 1 script: MonsterHunFewCold11 id: 15 type: STR_MONSTERS_HUNT_FEW_COLD race: STR_WEREWOLF region: STR_SOUTH_AMERICA
+  targetZone: 15 targetArea: 8'
+- 'month: 1 script: MonsterHuntSeveralCold1 id: 16 type: STR_MONSTERS_HUNT_SEVERAL_COLD race: STR_ZOMBIE_STERILE region: STR_ARCTIC
+  targetZone: 15 targetArea: 4'
+- 'month: 1 script: MonsterHuntSeveralDesert4 id: 17 type: STR_MONSTERS_HUNT_SEVERAL_DESERT race: STR_GIANT_SPIDER region:
+  STR_AUSTRALASIA targetZone: 14 targetArea: 3'
+- 'month: 1 script: MonsterHuntSingleCold5 id: 18 type: STR_MONSTERS_HUNT_SINGLE_COLD race: STR_FENRIR region: STR_SIBERIA
+  targetZone: 15 targetArea: 9'
+- 'month: 1 script: deadCattle1 id: 19 type: STR_DEAD_CATTLE race: STR_FARMER region: STR_EUROPE targetZone: 1 targetArea:
+  20'
+- 'gameTime: 1997-01-01 00:00:00 eventSpawn: STR_ZOMBIES_ITS_THE_ZOMBIES days/hours: 9/17'
+- 'gameTime: 1997-01-01 00:00:00 eventSpawn: STR_LEAGUE_SUICIDAL_CONFESSIONS days/hours: 9/18'
+- 'gameTime: 1997-01-01 00:00:00 eventSpawn: STR_MYSTERIOUS_SPONSOR_250000 days/hours: 14/8'
+- 'gameTime: 1997-01-05 11:00:00 siteId: 2 siteType: STR_MONSTER_HUNT race: STR_FENRIR region: STR_SOUTH_EAST_ASIA deployment:
+  STR_MONSTERS_HUNT_SINGLE_TEMPERATE missionId: 14 missionType: STR_MONSTERS_HUNT_SINGLE_TEMPERATE'
+- 'gameTime: 1997-01-05 20:30:00 siteId: 3 siteType: STR_MONSTER_HUNT race: STR_ZOMBIE_STERILE region: STR_ARCTIC deployment:
+  STR_MONSTERS_HUNT_SEVERAL_COLD missionId: 16 missionType: STR_MONSTERS_HUNT_SEVERAL_COLD'
+- 'gameTime: 1997-01-08 07:30:00 siteId: 2 siteType: STR_CULT_APPREHENSION race: STR_EXALT region: STR_SOUTH_AMERICA city:
+  STR_SALVADOR deployment: STR_CULT_APPREHENSION_EXALT missionId: 13 missionType: STR_CULT_APPREHENSION_EXALT'
+- 'gameTime: 1997-01-10 12:30:00 siteId: 3 siteType: STR_CULT_APPREHENSION race: STR_ZSRR region: STR_EUROPE city: STR_SARATOV
+  deployment: STR_CULT_APPREHENSION_ZSRR missionId: 11 missionType: STR_CULT_APPREHENSION_ZSRR'
+- 'gameTime: 1997-01-10 17:00:00 eventPopup: STR_ZOMBIES_ITS_THE_ZOMBIES'
+- 'gameTime: 1997-01-10 17:30:00 eventPopup: STR_LEAGUE_SUICIDAL_CONFESSIONS'
+- 'gameTime: 1997-01-12 05:00:00 eventPopup: STR_CHUPACABRA_GORE_PILE'
+- 'gameTime: 1997-01-14 08:30:00 siteId: 4 siteType: STR_MONSTER_HUNT race: STR_WEREWOLF region: STR_SOUTH_AMERICA deployment:
+  STR_MONSTERS_HUNT_FEW_COLD missionId: 15 missionType: STR_MONSTERS_HUNT_FEW_COLD'
+- 'gameTime: 1997-01-15 08:00:00 eventPopup: STR_MYSTERIOUS_SPONSOR_250000'
+- 'gameTime: 1997-01-15 11:30:00 siteId: 1 siteType: STR_CROP_CIRCLES race: STR_FARMER region: STR_SOUTHERN_AFRICA deployment:
+  STR_CROP_CIRCLES missionId: 8 missionType: STR_CROP_CIRCLES'
+- 'gameTime: 1997-01-15 20:30:00 siteId: 5 siteType: STR_MONSTER_HUNT race: STR_WERECAT region: STR_CENTRAL_ASIA deployment:
+  STR_MONSTERS_HUNT_SINGLE_DESERT missionId: 7 missionType: STR_MONSTERS_HUNT_SINGLE_DESERT'
+- 'gameTime: 1997-01-17 15:00:00 siteId: 4 siteType: STR_CULT_APPREHENSION race: STR_ZSRR region: STR_SIBERIA city: STR_YAKUTSK
+  deployment: STR_CULT_APPREHENSION_ZSRR missionId: 3 missionType: STR_CULT_APPREHENSION_ZSRR'
+- 'gameTime: 1997-01-17 21:30:00 siteId: 5 siteType: STR_CULT_APPREHENSION race: STR_ZSRR region: STR_ARCTIC city: STR_BARROW
+  deployment: STR_CULT_APPREHENSION_ZSRR missionId: 12 missionType: STR_CULT_APPREHENSION_ZSRR'
+- 'gameTime: 1997-01-17 22:30:00 siteId: 6 siteType: STR_CULT_APPREHENSION race: STR_CHURCH_OF_DAGON region: STR_EUROPE city:
+  STR_LISBON deployment: STR_CULT_APPREHENSION_CHURCH_OF_DAGON missionId: 2 missionType: STR_CULT_APPREHENSION_CHURCH_OF_DAGON'
+- 'gameTime: 1997-01-18 01:00:00 siteId: 7 siteType: STR_CULT_APPREHENSION race: STR_EXALT region: STR_NORTH_AMERICA city:
+  STR_MEXICO_CITY deployment: STR_CULT_APPREHENSION_EXALT missionId: 9 missionType: STR_CULT_APPREHENSION_EXALT'
+- 'gameTime: 1997-01-22 05:30:00 siteId: 8 siteType: STR_CULT_APPREHENSION race: STR_BLACK_LOTUS region: STR_PACIFIC city:
+  STR_GALAPAGOS_ISLAND deployment: STR_CULT_APPREHENSION_BLACK_LOTUS missionId: 10 missionType: STR_CULT_APPREHENSION_BLACK_LOTUS'
+- 'gameTime: 1997-01-24 01:30:00 siteId: 6 siteType: STR_MONSTER_HUNT race: STR_GIANT_SPIDER region: STR_AUSTRALASIA deployment:
+  STR_MONSTERS_HUNT_SEVERAL_DESERT missionId: 17 missionType: STR_MONSTERS_HUNT_SEVERAL_DESERT'
+- 'gameTime: 1997-01-24 23:00:00 eventPopup: STR_INVESTIGATED'
+- 'gameTime: 1997-01-26 12:30:00 siteId: 7 siteType: STR_MONSTER_HUNT race: STR_FENRIR region: STR_SIBERIA deployment: STR_MONSTERS_HUNT_SINGLE_COLD
+  missionId: 18 missionType: STR_MONSTERS_HUNT_SINGLE_COLD'
+- 'gameTime: 1997-01-29 01:00:00 siteId: 1 siteType: STR_DEAD_CATTLE race: STR_FARMER region: STR_EUROPE deployment: STR_DEAD_CATTLE
+  missionId: 19 missionType: STR_DEAD_CATTLE'
+- 'gameTime: 1997-01-29 08:30:00 siteId: 9 siteType: STR_CULT_APPREHENSION race: STR_ZSRR region: STR_CENTRAL_ASIA city: STR_BAGHDAD
+  deployment: STR_CULT_APPREHENSION_ZSRR missionId: 5 missionType: STR_CULT_APPREHENSION_ZSRR'
+- 'gameTime: 1997-01-29 17:30:00 siteId: 10 siteType: STR_CULT_APPREHENSION race: STR_BLACK_LOTUS region: STR_SOUTH_EAST_ASIA
+  city: STR_SAPPORO deployment: STR_CULT_APPREHENSION_BLACK_LOTUS missionId: 4 missionType: STR_CULT_APPREHENSION_BLACK_LOTUS'
+researchScores:
+- 40
+- 269
+incomes:
+- 1266000
+- 2456550
+expenditures:
+- 274730
+- 2993018
+warned: false
+togglePersonalLight: true
+toggleNightVision: false
+toggleBrightness: 0
+globeLon: 2.3902760932045015
+globeLat: 0.5118656498036787
+globeZoom: 3
+ids:
+  ALIEN_MISSIONS: 20
+  STR_CIVILIAN_CAR: 2
+  STR_CROP_CIRCLES: 2
+  STR_CULT_APPREHENSION: 11
+  STR_DEAD_CATTLE: 2
+  STR_MONSTER_HUNT: 8
+  STR_SOLDIER: 11
+  STR_VAN: 2
+  STR_WAY_POINT: 2
+countries:
+- type: STR_USA
+  funding:
+  - 59000
+  - 59000
+  activityXcom:
+  - 0
+  - 43
+  activityAlien:
+  - 0
+  - 200
+- type: STR_RUSSIA
+  funding:
+  - 27000
+  - 27000
+  activityXcom:
+  - 0
+  - 56
+  activityAlien:
+  - 0
+  - 0
+- type: STR_UK
+  funding:
+  - 25000
+  - 25000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_FRANCE
+  funding:
+  - 51000
+  - 51000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_GERMANY
+  funding:
+  - 20000
+  - 20000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_SWITZERLAND
+  funding:
+  - 7000
+  - 7000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_ITALY
+  funding:
+  - 11000
+  - 11000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_SPAIN
+  funding:
+  - 11000
+  - 11000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_VIETNAM
+  funding:
+  - 28000
+  - 28000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_CHINA
+  funding:
+  - 13000
+  - 13000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_JAPAN
+  funding:
+  - 39000
+  - 39000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_INDIA
+  funding:
+  - 7000
+  - 8000
+  activityXcom:
+  - 83
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_BRAZIL
+  funding:
+  - 23000
+  - 23000
+  activityXcom:
+  - 0
+  - 8
+  activityAlien:
+  - 0
+  - 0
+- type: STR_AUSTRALIA
+  funding:
+  - 18000
+  - 18000
+  activityXcom:
+  - 0
+  - 8
+  activityAlien:
+  - 0
+  - 0
+- type: STR_NETHERLANDS
+  funding:
+  - 13000
+  - 13000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_BELGIUM
+  funding:
+  - 26000
+  - 26000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_SOUTH_AFRICA
+  funding:
+  - 3000
+  - 3000
+  activityXcom:
+  - 0
+  - 58
+  activityAlien:
+  - 0
+  - 0
+- type: STR_EGYPT
+  funding:
+  - 5000
+  - 5000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_CANADA
+  funding:
+  - 41000
+  - 41000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_CUBA
+  funding:
+  - 9000
+  - 9000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_SOUTH_KOREA
+  funding:
+  - 34000
+  - 34000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_MONGOLIA
+  funding:
+  - 5000
+  - 5000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_NEW_ZEALAND
+  funding:
+  - 7000
+  - 7000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_ICELAND
+  funding:
+  - 11000
+  - 11000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_PORTUGAL
+  funding:
+  - 9000
+  - 9000
+  activityXcom:
+  - 0
+  - 4
+  activityAlien:
+  - 0
+  - 0
+- type: STR_NIGERIA
+  funding:
+  - 19000
+  - 19000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_MEXICO
+  funding:
+  - 37000
+  - 37000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 200
+- type: STR_INDONESIA
+  funding:
+  - 11000
+  - 11000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_IRELAND
+  funding:
+  - 3000
+  - 3000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_DENMARK
+  funding:
+  - 6000
+  - 6000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_ESTONIA
+  funding:
+  - 19000
+  - 19000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_LATVIA
+  funding:
+  - 25000
+  - 25000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_LITHUANIA
+  funding:
+  - 16000
+  - 16000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_CROATIA
+  funding:
+  - 14000
+  - 14000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_SERBIA
+  funding:
+  - 18000
+  - 18000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_AUSTRIA
+  funding:
+  - 19000
+  - 19000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_HUNGARY
+  funding:
+  - 14000
+  - 14000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_SLOVAKIA
+  funding:
+  - 28000
+  - 28000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_CZECHIA
+  funding:
+  - 11000
+  - 11000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_POLAND
+  funding:
+  - 20000
+  - 20000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_BELARUS
+  funding:
+  - 28000
+  - 28000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_UKRAINE
+  funding:
+  - 28000
+  - 28000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_ROMANIA
+  funding:
+  - 19000
+  - 19000
+  activityXcom:
+  - 0
+  - 10
+  activityAlien:
+  - 0
+  - 0
+- type: STR_BULGARIA
+  funding:
+  - 40000
+  - 40000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_GREECE
+  funding:
+  - 8000
+  - 8000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_TURKEY
+  funding:
+  - 27000
+  - 27000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_ISRAEL
+  funding:
+  - 12000
+  - 12000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_IRAQ
+  funding:
+  - 15000
+  - 15000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_IRAN
+  funding:
+  - 18000
+  - 18000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_SAUDI_ARABIA
+  funding:
+  - 39000
+  - 39000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_ARGENTINA
+  funding:
+  - 7000
+  - 7000
+  activityXcom:
+  - 0
+  - 20
+  activityAlien:
+  - 0
+  - 0
+- type: STR_PERU
+  funding:
+  - 2000
+  - 2000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_CHILE
+  funding:
+  - 4000
+  - 4000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_ECUADOR
+  funding:
+  - 10000
+  - 10000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_COLOMBIA
+  funding:
+  - 7000
+  - 7000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_NORWAY
+  funding:
+  - 11000
+  - 11000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_SWEDEN
+  funding:
+  - 6000
+  - 6000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_FINLAND
+  funding:
+  - 18000
+  - 18000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_LIBIA
+  funding:
+  - 5000
+  - 5000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_MOROCCO
+  funding:
+  - 6000
+  - 6000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_TUNISIA
+  funding:
+  - 6000
+  - 6000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_ALGERIA
+  funding:
+  - 6000
+  - 6000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_SENEGAL
+  funding:
+  - 11000
+  - 11000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_ETHIOPIA
+  funding:
+  - 7000
+  - 7000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_KENYA
+  funding:
+  - 4000
+  - 4000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_UGANDA
+  funding:
+  - 8000
+  - 8000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_DEMOCRATIC_REPUBLIC_OF_CONGO
+  funding:
+  - 9000
+  - 9000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_ARMENIA
+  funding:
+  - 36000
+  - 36000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_AZERBAIJAN
+  funding:
+  - 21000
+  - 21000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_GEORGIA
+  funding:
+  - 24000
+  - 24000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_KIRGYZSTAN
+  funding:
+  - 8000
+  - 8000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_TAJIKISTAN
+  funding:
+  - 10000
+  - 10000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_UZBEKISTAN
+  funding:
+  - 5000
+  - 5000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_TURKMENISTAN
+  funding:
+  - 5000
+  - 5000
+  activityXcom:
+  - 0
+  - 50
+  activityAlien:
+  - 0
+  - 0
+- type: STR_KAZAKHSTAN
+  funding:
+  - 18000
+  - 18000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_PAKISTAN
+  funding:
+  - 10000
+  - 10000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_AFGHANISTAN
+  funding:
+  - 5000
+  - 5000
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_THAILAND
+  funding:
+  - 1000
+  - 1000
+  activityXcom:
+  - 0
+  - 113
+  activityAlien:
+  - 0
+  - 0
+regions:
+- type: STR_NORTH_AMERICA
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 200
+- type: STR_SOUTH_AMERICA
+  activityXcom:
+  - 0
+  - -88
+  activityAlien:
+  - 0
+  - 0
+- type: STR_ARCTIC
+  activityXcom:
+  - 0
+  - 43
+  activityAlien:
+  - 0
+  - 200
+- type: STR_EUROPE
+  activityXcom:
+  - 0
+  - -128
+  activityAlien:
+  - 0
+  - 0
+- type: STR_CENTRAL_ASIA
+  activityXcom:
+  - 83
+  - 50
+  activityAlien:
+  - 0
+  - 0
+- type: STR_SIBERIA
+  activityXcom:
+  - 0
+  - 48
+  activityAlien:
+  - 0
+  - 0
+- type: STR_SOUTH_EAST_ASIA
+  activityXcom:
+  - 0
+  - 113
+  activityAlien:
+  - 0
+  - 0
+- type: STR_NORTH_AFRICA
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_SOUTHERN_AFRICA
+  activityXcom:
+  - 0
+  - 58
+  activityAlien:
+  - 0
+  - 0
+- type: STR_AUSTRALASIA
+  activityXcom:
+  - 0
+  - 8
+  activityAlien:
+  - 0
+  - 0
+- type: STR_ANTARCTICA
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_PACIFIC
+  activityXcom:
+  - 0
+  - 16
+  activityAlien:
+  - 0
+  - 0
+- type: STR_NORTH_ATLANTIC
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_SOUTH_ATLANTIC
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+- type: STR_INDIAN_OCEAN
+  activityXcom:
+  - 0
+  - 0
+  activityAlien:
+  - 0
+  - 0
+bases:
+- lon: 0.4207849116612607
+  lat: -0.6175649922343541
+  name: Hydra Base
+  facilities:
+  - type: STR_GENERAL_STORES
+    x: 2
+    y: 0
+  - type: STR_ACCESS_LIFT
+    x: 2
+    y: 2
+  - type: STR_LIVING_QUARTERS
+    x: 2
+    y: 1
+  - type: STR_HANGAR
+    x: 2
+    y: 4
+  - type: STR_HANGAR
+    x: 0
+    y: 4
+  - type: STR_HQ
+    x: 2
+    y: 3
+  - type: STR_PRISON_CELLS
+    x: 0
+    y: 2
+  - type: STR_CORRIDOR
+    x: 1
+    y: 2
+  - type: STR_GYM
+    x: 1
+    y: 3
+  - type: STR_ANIMAL_CAGES
+    x: 3
+    y: 2
+  - type: STR_LIVING_QUARTERS
+    x: 3
+    y: 1
+  soldiers:
+  - type: STR_SOLDIER
+    id: 1
+    name: Hineana Keli'i
+    nationality: 60
+    initialStats:
+      tu: 53
+      stamina: 40
+      health: 28
+      bravery: 50
+      reactions: 53
+      firing: 61
+      throwing: 52
+      strength: 39
+      psiStrength: 92
+      psiSkill: 0
+      melee: 35
+      mana: 60
+    currentStats:
+      tu: 100
+      stamina: 100
+      health: 100
+      bravery: 100
+      reactions: 100
+      firing: 100
+      throwing: 100
+      strength: 100
+      psiStrength: 100
+      psiSkill: 100
+      melee: 100
+      mana: 100
+    rank: 1
+    craft:
+      lon: 0.4207849116612607
+      lat: -0.6175649922343541
+      type: STR_VAN
+      id: 1
+    gender: 1
+    look: 1
+    lookVariant: 5
+    missions: 4
+    kills: 0
+    stuns: 1
+    armor: STR_SUIT_UC
+    training: true
+    improvement: 0
+    psiStrImprovement: 0
+    equipmentLayout:
+    - itemType: STR_SMALL_SHOTGUN
+      slot: STR_RIGHT_HAND
+      ammoItem: STR_SMALL_SHOTGUN_SHELLS
+      ammoItemSlots:
+      - STR_SMALL_SHOTGUN_SHELLS
+    - itemType: STR_TASER
+      slot: STR_QD_SLOT
+      ammoItem: STR_TASER_CLIP
+      ammoItemSlots:
+      - STR_TASER_CLIP
+    - itemType: STR_HANDCUFFS
+      slot: STR_RIGHT_LEG
+      slotX: 1
+    - itemType: STR_SMALL_SHOTGUN_SHELLS
+      slot: STR_BELT
+    - itemType: STR_SMALL_SHOTGUN_SHELLS
+      slot: STR_BELT
+      slotX: 1
+    - itemType: STR_TASER_CLIP
+      slot: STR_RIGHT_SHOULDER
+      slotX: 1
+    - itemType: STR_TASER_CLIP
+      slot: STR_LEFT_SHOULDER
+    diary:
+      commendations:
+      - commendationName: STR_MEDAL_ORIGINAL8_NAME
+        noun: NoNoun
+        decorationLevel: 0
+      - commendationName: STR_MEDAL_SAVEDALL_NAME
+        decorationLevel: 1
+      - commendationName: STR_MEDAL_STATGAIN_NAME
+        decorationLevel: 2
+      killList:
+      - type: STR_BLACK_LOTUS_FOLLOWER
+        rank: STR_LIVE_SOLDIER
+        race: STR_BLACK_LOTUS
+        weapon: STR_SMALL_SHOTGUN
+        weaponAmmo: STR_SMALL_SHOTGUN_SHELLS
+        status: 7
+        faction: 1
+        mission: 12
+        turn: 3607
+        side: 0
+        bodypart: 5
+        id: 1000000
+      missionIdList:
+      - 0
+      - 2
+      - 7
+      - 12
+      monthsService: 1
+      shotsFiredCounterTotal: 7
+      shotsLandedCounterTotal: 17
+      allAliensStunnedTotal: 1
+      statGainTotal: 183
+      braveryGainTotal: 15
+  - type: STR_SOLDIER
+    id: 2
+    name: Tomasz Chrzanowski
+    nationality: 59
+    initialStats:
+      tu: 48
+      stamina: 56
+      health: 29
+      bravery: 50
+      reactions: 40
+      firing: 55
+      throwing: 36
+      strength: 23
+      psiStrength: 10
+      psiSkill: 0
+      melee: 59
+      mana: 20
+    currentStats:
+      tu: 100
+      stamina: 100
+      health: 100
+      bravery: 100
+      reactions: 100
+      firing: 100
+      throwing: 100
+      strength: 100
+      psiStrength: 100
+      psiSkill: 100
+      melee: 100
+      mana: 100
+    rank: 2
+    gender: 0
+    look: 0
+    lookVariant: 29
+    missions: 3
+    kills: 1
+    stuns: 1
+    recovery: 34
+    armor: STR_SUIT_UC
+    returnToTrainingWhenHealed: true
+    improvement: 0
+    psiStrImprovement: 0
+    equipmentLayout:
+    - itemType: STR_GLOCK_18
+      slot: STR_QD_SLOT
+      ammoItem: STR_GLOCK_18_CLIP
+      ammoItemSlots:
+      - STR_GLOCK_18_CLIP
+    - itemType: STR_GLOCK_18_CLIP
+      slot: STR_BELT
+    - itemType: STR_GLOCK_18_CLIP
+      slot: STR_BELT
+      slotX: 1
+    - itemType: STR_TASER
+      slot: STR_RIGHT_HAND
+      ammoItem: STR_TASER_CLIP
+      ammoItemSlots:
+      - STR_TASER_CLIP
+    - itemType: STR_TASER_CLIP
+      slot: STR_RIGHT_SHOULDER
+      slotX: 1
+    - itemType: STR_TASER_CLIP
+      slot: STR_LEFT_SHOULDER
+    diary:
+      commendations:
+      - commendationName: STR_MEDAL_ORIGINAL8_NAME
+        noun: NoNoun
+        decorationLevel: 0
+      - commendationName: STR_MEDAL_SAVEDALL_NAME
+        decorationLevel: 0
+      - commendationName: STR_MEDAL_STATGAIN_NAME
+        decorationLevel: 5
+      - commendationName: STR_MEDAL_CRIMSON_HEART_NAME
+        decorationLevel: 1
+      - commendationName: STR_MEDAL_PURPLE_HEART_NAME
+        decorationLevel: 0
+      killList:
+      - type: STR_BULLFROG_TERRORIST
+        rank: STR_LIVE_TERRORIST
+        race: STR_BULLFROG
+        weapon: STR_GLOCK_18
+        weaponAmmo: STR_GLOCK_18_CLIP
+        status: 7
+        faction: 1
+        mission: 0
+        turn: 3
+        side: 3
+        bodypart: 1
+        id: 1000000
+      - type: STR_BULLFROG_TERRORIST
+        rank: STR_LIVE_TERRORIST
+        race: STR_BULLFROG
+        weapon: STR_GLOCK_18
+        weaponAmmo: STR_GLOCK_18_CLIP
+        status: 6
+        faction: 1
+        mission: 0
+        turn: 4
+        side: 3
+        bodypart: 1
+        id: 1000000
+      missionIdList:
+      - 0
+      - 7
+      - 12
+      daysWoundedTotal: 39
+      monthsService: 1
+      shotAtCounterTotal: 2
+      hitCounterTotal: 2
+      shotsFiredCounterTotal: 11
+      shotsLandedCounterTotal: 9
+      timesWoundedTotal: 1
+      statGainTotal: 284
+      braveryGainTotal: 15
+  - type: STR_SOLDIER
+    id: 3
+    name: Emily Nguyen
+    nationality: 6
+    initialStats:
+      tu: 52
+      stamina: 42
+      health: 29
+      bravery: 40
+      reactions: 56
+      firing: 55
+      throwing: 50
+      strength: 39
+      psiStrength: 9
+      psiSkill: 0
+      melee: 21
+      mana: 77
+    currentStats:
+      tu: 100
+      stamina: 100
+      health: 100
+      bravery: 100
+      reactions: 100
+      firing: 100
+      throwing: 100
+      strength: 100
+      psiStrength: 100
+      psiSkill: 100
+      melee: 100
+      mana: 100
+    rank: 2
+    gender: 1
+    look: 1
+    lookVariant: 36
+    missions: 1
+    kills: 0
+    stuns: 1
+    armor: STR_SUIT_UC
+    training: true
+    improvement: 0
+    psiStrImprovement: 0
+    equipmentLayout:
+    - itemType: STR_SMALL_SHOTGUN
+      slot: STR_RIGHT_HAND
+      ammoItem: STR_SMALL_SHOTGUN_SHELLS
+      ammoItemSlots:
+      - STR_SMALL_SHOTGUN_SHELLS
+    - itemType: STR_SMALL_SHOTGUN_SHELLS
+      slot: STR_BELT
+    - itemType: STR_SMALL_SHOTGUN_SHELLS
+      slot: STR_BELT
+      slotX: 1
+    - itemType: STR_HANDCUFFS
+      slot: STR_RIGHT_LEG
+    - itemType: STR_TASER
+      slot: STR_QD_SLOT
+      ammoItem: STR_TASER_CLIP
+      ammoItemSlots:
+      - STR_TASER_CLIP
+    - itemType: STR_TASER_CLIP
+      slot: STR_LEFT_SHOULDER
+    - itemType: STR_TASER_CLIP
+      slot: STR_RIGHT_SHOULDER
+      slotX: 1
+    diary:
+      commendations:
+      - commendationName: STR_MEDAL_ORIGINAL8_NAME
+        noun: NoNoun
+        decorationLevel: 0
+      - commendationName: STR_MEDAL_STATGAIN_NAME
+        decorationLevel: 4
+      killList:
+      - type: STR_BLACK_LOTUS_FOLLOWER
+        rank: STR_LIVE_SOLDIER
+        race: STR_BLACK_LOTUS
+        weapon: STR_TASER
+        weaponAmmo: STR_TASER_CLIP
+        status: 7
+        faction: 1
+        mission: 1
+        turn: 324
+        side: 0
+        bodypart: 1
+        id: 1000000
+      missionIdList:
+      - 1
+      monthsService: 1
+      shotsFiredCounterTotal: 1
+      shotsLandedCounterTotal: 1
+      allAliensStunnedTotal: 1
+      statGainTotal: 242
+      braveryGainTotal: 25
+  - type: STR_SOLDIER
+    id: 4
+    name: Tom Emilsson
+    nationality: 70
+    initialStats:
+      tu: 52
+      stamina: 50
+      health: 27
+      bravery: 50
+      reactions: 30
+      firing: 57
+      throwing: 54
+      strength: 27
+      psiStrength: 47
+      psiSkill: 0
+      melee: 59
+      mana: 32
+    currentStats:
+      tu: 100
+      stamina: 100
+      health: 100
+      bravery: 100
+      reactions: 100
+      firing: 100
+      throwing: 100
+      strength: 100
+      psiStrength: 100
+      psiSkill: 100
+      melee: 100
+      mana: 100
+    rank: 1
+    craft:
+      lon: 0.4207849116612607
+      lat: -0.6175649922343541
+      type: STR_VAN
+      id: 1
+    gender: 0
+    look: 0
+    lookVariant: 27
+    missions: 5
+    kills: 1
+    stuns: 2
+    armor: STR_LEATHER_COAT_UC
+    improvement: 0
+    psiStrImprovement: 0
+    equipmentLayout:
+    - itemType: STR_ELECTRO_FLARE
+      slot: STR_LEFT_SHOULDER
+    - itemType: STR_GLOCK_18
+      slot: STR_QD_SLOT
+      ammoItem: STR_GLOCK_18_CLIP
+      ammoItemSlots:
+      - STR_GLOCK_18_CLIP
+    - itemType: STR_TASER
+      slot: STR_RIGHT_HAND
+      ammoItem: STR_TASER_CLIP
+      ammoItemSlots:
+      - STR_TASER_CLIP
+    - itemType: STR_MAG_LITE
+      slot: STR_LEFT_HAND
+    - itemType: STR_HANDCUFFS
+      slot: STR_BELT
+    - itemType: STR_GLOCK_18_CLIP
+      slot: STR_LEFT_SHOULDER
+      slotX: 1
+    - itemType: STR_TASER_CLIP
+      slot: STR_RIGHT_SHOULDER
+    - itemType: STR_TASER_CLIP
+      slot: STR_RIGHT_SHOULDER
+      slotX: 1
+    diary:
+      commendations:
+      - commendationName: STR_MEDAL_ORIGINAL8_NAME
+        noun: NoNoun
+        decorationLevel: 0
+      - commendationName: STR_MEDAL_STATGAIN_NAME
+        decorationLevel: 4
+      - commendationName: STR_MEDAL_SAVEDALL_NAME
+        decorationLevel: 1
+      - commendationName: STR_MEDAL_CARREER_MISSIONS_NAME
+        decorationLevel: 0
+      killList:
+      - type: STR_FENRIR_TERRORIST
+        rank: STR_LIVE_TERRORIST
+        race: STR_FENRIR
+        weapon: STR_GLOCK_18
+        weaponAmmo: STR_GLOCK_18_CLIP
+        status: 7
+        faction: 1
+        mission: 2
+        turn: 606
+        side: 2
+        bodypart: 2
+        id: 1000000
+      - type: STR_FENRIR_TERRORIST
+        rank: STR_LIVE_TERRORIST
+        race: STR_FENRIR
+        weapon: STR_GLOCK_18
+        weaponAmmo: STR_GLOCK_18_CLIP
+        status: 6
+        faction: 1
+        mission: 2
+        turn: 607
+        side: 2
+        bodypart: 2
+        id: 1000000
+      - type: STR_SUPPORTER_OF_DAGON
+        rank: STR_LIVE_SOLDIER
+        race: STR_CHURCH_OF_DAGON
+        weapon: STR_TASER
+        weaponAmmo: STR_TASER_CLIP
+        status: 7
+        faction: 1
+        mission: 9
+        turn: 2706
+        side: 3
+        bodypart: 1
+        id: 1000000
+      missionIdList:
+      - 1
+      - 2
+      - 8
+      - 9
+      - 12
+      monthsService: 1
+      shotsFiredCounterTotal: 9
+      shotsLandedCounterTotal: 6
+      allAliensStunnedTotal: 1
+      statGainTotal: 234
+      braveryGainTotal: 15
+  - type: STR_SOLDIER
+    id: 5
+    name: Marko Suursoo
+    nationality: 26
+    initialStats:
+      tu: 49
+      stamina: 56
+      health: 32
+      bravery: 60
+      reactions: 51
+      firing: 65
+      throwing: 35
+      strength: 38
+      psiStrength: 94
+      psiSkill: 0
+      melee: 31
+      mana: 22
+    currentStats:
+      tu: 100
+      stamina: 100
+      health: 100
+      bravery: 100
+      reactions: 100
+      firing: 100
+      throwing: 100
+      strength: 100
+      psiStrength: 100
+      psiSkill: 100
+      melee: 100
+      mana: 100
+    rank: 1
+    craft:
+      lon: 0.4207849116612607
+      lat: -0.6175649922343541
+      type: STR_VAN
+      id: 1
+    gender: 0
+    look: 0
+    lookVariant: 5
+    missions: 4
+    kills: 2
+    stuns: 0
+    armor: STR_LEATHER_COAT_UC
+    training: true
+    improvement: 0
+    psiStrImprovement: 0
+    equipmentLayout:
+    - itemType: STR_ELECTRO_FLARE
+      slot: STR_LEFT_SHOULDER
+    - itemType: STR_GLOCK_18
+      slot: STR_QD_SLOT
+      ammoItem: STR_GLOCK_18_CLIP
+      ammoItemSlots:
+      - STR_GLOCK_18_CLIP
+    - itemType: STR_TASER
+      slot: STR_RIGHT_HAND
+      ammoItem: STR_TASER_CLIP
+      ammoItemSlots:
+      - STR_TASER_CLIP
+    - itemType: STR_MAG_LITE
+      slot: STR_LEFT_HAND
+    - itemType: STR_HANDCUFFS
+      slot: STR_BELT
+    - itemType: STR_GLOCK_18_CLIP
+      slot: STR_LEFT_SHOULDER
+      slotX: 1
+    - itemType: STR_TASER_CLIP
+      slot: STR_RIGHT_SHOULDER
+    - itemType: STR_TASER_CLIP
+      slot: STR_RIGHT_SHOULDER
+      slotX: 1
+    diary:
+      commendations:
+      - commendationName: STR_MEDAL_ORIGINAL8_NAME
+        noun: NoNoun
+        decorationLevel: 0
+      - commendationName: STR_MEDAL_STATGAIN_NAME
+        decorationLevel: 3
+      - commendationName: STR_MEDAL_SAVEDALL_NAME
+        decorationLevel: 0
+      killList:
+      - type: STR_ZOMBIE_GRUBAS_TERRORIST
+        rank: STR_LIVE_TERRORIST
+        race: STR_ZOMBIE
+        weapon: STR_SMALL_SHOTGUN
+        weaponAmmo: STR_SMALL_SHOTGUN_SHELLS
+        status: 6
+        faction: 1
+        mission: 3
+        turn: 909
+        side: 1
+        bodypart: 3
+        id: 1000003
+      - type: STR_WERECAT_TERRORIST
+        rank: STR_LIVE_TERRORIST
+        race: STR_WERECAT
+        weapon: STR_SMALL_SHOTGUN
+        weaponAmmo: STR_SMALL_SHOTGUN_SHELLS
+        status: 6
+        faction: 1
+        mission: 8
+        turn: 2409
+        side: 0
+        bodypart: 1
+        id: 1000000
+      missionIdList:
+      - 3
+      - 8
+      - 9
+      - 12
+      monthsService: 1
+      shotAtCounterTotal: 1
+      shotsFiredCounterTotal: 14
+      shotsLandedCounterTotal: 39
+      allAliensKilledTotal: 1
+      statGainTotal: 217
+      braveryGainTotal: 5
+  - type: STR_SOLDIER
+    id: 6
+    name: Neelam Bauri
+    nationality: 34
+    initialStats:
+      tu: 55
+      stamina: 51
+      health: 26
+      bravery: 30
+      reactions: 56
+      firing: 47
+      throwing: 45
+      strength: 24
+      psiStrength: 71
+      psiSkill: 0
+      melee: 52
+      mana: 79
+    currentStats:
+      tu: 100
+      stamina: 100
+      health: 100
+      bravery: 100
+      reactions: 100
+      firing: 100
+      throwing: 100
+      strength: 100
+      psiStrength: 100
+      psiSkill: 100
+      melee: 100
+      mana: 100
+    rank: 1
+    gender: 0
+    look: 2
+    lookVariant: 11
+    missions: 2
+    kills: 5
+    stuns: 2
+    recovery: 35
+    armor: STR_SUIT_UC
+    returnToTrainingWhenHealed: true
+    improvement: 0
+    psiStrImprovement: 0
+    equipmentLayout:
+    - itemType: STR_GLOCK_18
+      slot: STR_RIGHT_HAND
+      ammoItem: STR_GLOCK_18_CLIP
+      ammoItemSlots:
+      - STR_GLOCK_18_CLIP
+    - itemType: STR_TASER
+      slot: STR_QD_SLOT
+      ammoItem: STR_TASER_CLIP
+      ammoItemSlots:
+      - STR_TASER_CLIP
+    - itemType: STR_MAG_LITE
+      slot: STR_LEFT_HAND
+    - itemType: STR_HANDCUFFS
+      slot: STR_BELT
+      slotX: 3
+    - itemType: STR_GLOCK_18_CLIP
+      slot: STR_BELT
+    - itemType: STR_GLOCK_18_CLIP
+      slot: STR_BELT
+      slotX: 1
+    - itemType: STR_TASER_CLIP
+      slot: STR_RIGHT_SHOULDER
+      slotX: 1
+    - itemType: STR_TASER_CLIP
+      slot: STR_LEFT_SHOULDER
+    diary:
+      commendations:
+      - commendationName: STR_MEDAL_ORIGINAL8_NAME
+        noun: NoNoun
+        decorationLevel: 0
+      - commendationName: STR_MEDAL_STATGAIN_NAME
+        decorationLevel: 2
+      - commendationName: STR_MEDAL_CRIMSON_HEART_NAME
+        decorationLevel: 1
+      - commendationName: STR_MEDAL_PURPLE_HEART_NAME
+        decorationLevel: 0
+      - commendationName: STR_MEDAL_REACTIONFIRE_NAME
+        decorationLevel: 0
+      killList:
+      - type: STR_ZOMBIE_STERILE_TERRORIST
+        rank: STR_LIVE_TERRORIST
+        race: STR_ZOMBIE
+        weapon: STR_GLOCK_18
+        weaponAmmo: STR_GLOCK_18_CLIP
+        status: 6
+        faction: 1
+        mission: 3
+        turn: 906
+        side: 2
+        bodypart: 2
+        id: 1000001
+      - type: STR_ZOMBIE_STERILE_TERRORIST
+        rank: STR_LIVE_TERRORIST
+        race: STR_ZOMBIE
+        weapon: STR_GLOCK_18
+        weaponAmmo: STR_GLOCK_18_CLIP
+        status: 6
+        faction: 1
+        mission: 3
+        turn: 913
+        side: 0
+        bodypart: 1
+        id: 1000002
+      - type: STR_ZOMBIE_STERILE_TERRORIST
+        rank: STR_LIVE_TERRORIST
+        race: STR_ZOMBIE
+        weapon: STR_TASER
+        weaponAmmo: STR_TASER_CLIP
+        status: 7
+        faction: 1
+        mission: 3
+        turn: 921
+        side: 0
+        bodypart: 1
+        id: 1000000
+      - type: STR_GIANT_SPIDER_TERRORIST
+        rank: STR_LIVE_TERRORIST
+        race: STR_GIANT_SPIDER
+        weapon: STR_UNARMED_SUIT
+        weaponAmmo: STR_UNARMED_SUIT
+        status: 7
+        faction: 1
+        mission: 11
+        turn: 3313
+        side: 0
+        bodypart: 1
+        id: 1000001
+      - type: STR_GIANT_SPIDER_RED_TERRORIST
+        rank: STR_LIVE_TERRORIST
+        race: STR_GIANT_SPIDER
+        weapon: STR_GLOCK_18
+        weaponAmmo: STR_GLOCK_18_CLIP
+        status: 6
+        faction: 1
+        mission: 11
+        turn: 3318
+        side: 0
+        bodypart: 1
+        id: 1000003
+      - type: STR_GIANT_SPIDER_TERRORIST
+        rank: STR_LIVE_TERRORIST
+        race: STR_GIANT_SPIDER
+        weapon: STR_UNARMED_SUIT
+        weaponAmmo: STR_UNARMED_SUIT
+        status: 6
+        faction: 1
+        mission: 11
+        turn: 3328
+        side: 0
+        bodypart: 1
+        id: 1000001
+      - type: STR_GIANT_SPIDER_TERRORIST
+        rank: STR_LIVE_TERRORIST
+        race: STR_GIANT_SPIDER
+        weapon: STR_GLOCK_18
+        weaponAmmo: STR_GLOCK_18_CLIP
+        status: 6
+        faction: 1
+        mission: 11
+        turn: 3331
+        side: 0
+        bodypart: 1
+        id: 1000002
+      missionIdList:
+      - 3
+      - 11
+      daysWoundedTotal: 40
+      monthsService: 1
+      shotsFiredCounterTotal: 46
+      shotsLandedCounterTotal: 22
+      timesWoundedTotal: 1
+      statGainTotal: 177
+      braveryGainTotal: 35
+  - type: STR_SOLDIER
+    id: 7
+    name: Gavrilo Durić
+    nationality: 66
+    initialStats:
+      tu: 54
+      stamina: 59
+      health: 28
+      bravery: 20
+      reactions: 32
+      firing: 64
+      throwing: 38
+      strength: 38
+      psiStrength: 33
+      psiSkill: 0
+      melee: 32
+      mana: 69
+    currentStats:
+      tu: 100
+      stamina: 100
+      health: 100
+      bravery: 100
+      reactions: 100
+      firing: 100
+      throwing: 100
+      strength: 100
+      psiStrength: 100
+      psiSkill: 100
+      melee: 100
+      mana: 100
+    rank: 1
+    craft:
+      lon: 0.4207849116612607
+      lat: -0.6175649922343541
+      type: STR_CIVILIAN_CAR
+      id: 1
+    gender: 0
+    look: 0
+    lookVariant: 21
+    missions: 3
+    kills: 0
+    stuns: 1
+    armor: STR_LEATHER_COAT_UC
+    training: true
+    improvement: 0
+    psiStrImprovement: 0
+    equipmentLayout:
+    - itemType: STR_SMALL_SHOTGUN
+      slot: STR_QD_SLOT
+      ammoItem: STR_SMALL_SHOTGUN_SHELLS
+      ammoItemSlots:
+      - STR_SMALL_SHOTGUN_SHELLS
+    - itemType: STR_TASER
+      slot: STR_RIGHT_HAND
+      ammoItem: STR_TASER_CLIP
+      ammoItemSlots:
+      - STR_TASER_CLIP
+    - itemType: STR_HANDCUFFS
+      slot: STR_RIGHT_LEG
+    - itemType: STR_SMALL_SHOTGUN_SHELLS
+      slot: STR_BELT
+    - itemType: STR_TASER_CLIP
+      slot: STR_RIGHT_SHOULDER
+      slotX: 1
+    - itemType: STR_TASER_CLIP
+      slot: STR_LEFT_SHOULDER
+    diary:
+      commendations:
+      - commendationName: STR_MEDAL_STATGAIN_NAME
+        decorationLevel: 3
+      killList:
+      - type: STR_EXALT_INFILTRATOR
+        rank: STR_LIVE_SOLDIER
+        race: STR_EXALT
+        weapon: STR_TASER
+        weaponAmmo: STR_TASER_CLIP
+        status: 7
+        faction: 1
+        mission: 4
+        turn: 1207
+        side: 1
+        bodypart: 3
+        id: 1000000
+      missionIdList:
+      - 4
+      - 7
+      - 14
+      monthsService: 1
+      shotsFiredCounterTotal: 6
+      shotsLandedCounterTotal: 5
+      allAliensStunnedTotal: 1
+      statGainTotal: 220
+      braveryGainTotal: 45
+    transformationBonuses:
+      STR_CAREER_EXPLORER: 1
+  - type: STR_SOLDIER
+    id: 8
+    name: Maksim Reshetnikov
+    nationality: 63
+    initialStats:
+      tu: 54
+      stamina: 44
+      health: 28
+      bravery: 20
+      reactions: 42
+      firing: 54
+      throwing: 38
+      strength: 25
+      psiStrength: 88
+      psiSkill: 0
+      melee: 51
+      mana: 69
+    currentStats:
+      tu: 100
+      stamina: 100
+      health: 100
+      bravery: 100
+      reactions: 100
+      firing: 100
+      throwing: 100
+      strength: 100
+      psiStrength: 100
+      psiSkill: 100
+      melee: 100
+      mana: 100
+    rank: 1
+    gender: 0
+    look: 0
+    lookVariant: 11
+    missions: 3
+    kills: 1
+    stuns: 1
+    recovery: 17
+    armor: STR_LEATHER_COAT_UC
+    returnToTrainingWhenHealed: true
+    improvement: 0
+    psiStrImprovement: 0
+    equipmentLayout:
+    - itemType: STR_GLOCK_18
+      slot: STR_QD_SLOT
+      ammoItem: STR_GLOCK_18_CLIP
+      ammoItemSlots:
+      - STR_GLOCK_18_CLIP
+    - itemType: STR_TASER
+      slot: STR_RIGHT_HAND
+      ammoItem: STR_TASER_CLIP
+      ammoItemSlots:
+      - STR_TASER_CLIP
+    - itemType: STR_HANDCUFFS
+      slot: STR_BELT
+      slotX: 3
+    - itemType: STR_GLOCK_18_CLIP
+      slot: STR_BELT
+    - itemType: STR_GLOCK_18_CLIP
+      slot: STR_BELT
+      slotX: 1
+    - itemType: STR_TASER_CLIP
+      slot: STR_RIGHT_SHOULDER
+      slotX: 1
+    - itemType: STR_TASER_CLIP
+      slot: STR_LEFT_SHOULDER
+    diary:
+      commendations:
+      - commendationName: STR_MEDAL_STATGAIN_NAME
+        decorationLevel: 2
+      - commendationName: STR_MEDAL_CRIMSON_HEART_NAME
+        decorationLevel: 0
+      - commendationName: STR_MEDAL_PURPLE_HEART_NAME
+        decorationLevel: 0
+      killList:
+      - type: STR_WEREWOLF_TERRORIST
+        rank: STR_LIVE_TERRORIST
+        race: STR_WEREWOLF
+        weapon: STR_GLOCK_18
+        weaponAmmo: STR_GLOCK_18_CLIP
+        status: 6
+        faction: 1
+        mission: 7
+        turn: 2116
+        side: 1
+        bodypart: 3
+        id: 1000000
+      - type: STR_HUMAN_FARMER
+        rank: STR_LIVE_SOLDIER
+        race: STR_HUMAN
+        weapon: STR_TASER
+        weaponAmmo: STR_TASER_CLIP
+        status: 7
+        faction: 1
+        mission: 14
+        turn: 4215
+        side: 0
+        bodypart: 1
+        id: 1000000
+      missionIdList:
+      - 4
+      - 7
+      - 14
+      daysWoundedTotal: 18
+      monthsService: 1
+      shotAtCounterTotal: 1
+      hitCounterTotal: 4
+      shotsFiredCounterTotal: 3
+      shotsLandedCounterTotal: 2
+      timesWoundedTotal: 1
+      allAliensKilledTotal: 1
+      allAliensStunnedTotal: 1
+      statGainTotal: 197
+      braveryGainTotal: 45
+    transformationBonuses:
+      STR_CAREER_SPY: 1
+  - type: STR_SOLDIER
+    id: 9
+    name: Margarita Zaytseva
+    nationality: 63
+    initialStats:
+      tu: 50
+      stamina: 45
+      health: 28
+      bravery: 10
+      reactions: 43
+      firing: 59
+      throwing: 53
+      strength: 26
+      psiStrength: 84
+      psiSkill: 0
+      melee: 33
+      mana: 58
+    currentStats:
+      tu: 100
+      stamina: 100
+      health: 100
+      bravery: 100
+      reactions: 100
+      firing: 100
+      throwing: 100
+      strength: 100
+      psiStrength: 100
+      psiSkill: 100
+      melee: 100
+      mana: 100
+    rank: 1
+    gender: 1
+    look: 2
+    lookVariant: 57
+    missions: 5
+    kills: 1
+    stuns: 2
+    armor: STR_SUIT_UC
+    improvement: 0
+    psiStrImprovement: 0
+    equipmentLayout:
+    - itemType: STR_SMALL_SHOTGUN
+      slot: STR_QD_SLOT
+      ammoItem: STR_SMALL_SHOTGUN_SHELLS
+      ammoItemSlots:
+      - STR_SMALL_SHOTGUN_SHELLS
+    - itemType: STR_TASER
+      slot: STR_RIGHT_HAND
+      ammoItem: STR_TASER_CLIP
+      ammoItemSlots:
+      - STR_TASER_CLIP
+    - itemType: STR_HANDCUFFS
+      slot: STR_RIGHT_LEG
+    - itemType: STR_SMALL_SHOTGUN_SHELLS
+      slot: STR_BELT
+    - itemType: STR_TASER_CLIP
+      slot: STR_RIGHT_SHOULDER
+      slotX: 1
+    - itemType: STR_TASER_CLIP
+      slot: STR_LEFT_SHOULDER
+    diary:
+      commendations:
+      - commendationName: STR_MEDAL_STATGAIN_NAME
+        decorationLevel: 3
+      - commendationName: STR_MEDAL_CARREER_MISSIONS_NAME
+        decorationLevel: 0
+      killList:
+      - type: STR_ZSRR_GANGER
+        rank: STR_LIVE_SOLDIER
+        race: STR_ZSRR
+        weapon: STR_TASER
+        weaponAmmo: STR_TASER_CLIP
+        status: 7
+        faction: 1
+        mission: 5
+        turn: 1513
+        side: 0
+        bodypart: 1
+        id: 1000000
+      - type: STR_GIANT_SPIDER_TERRORIST
+        rank: STR_LIVE_TERRORIST
+        race: STR_GIANT_SPIDER
+        weapon: STR_SMALL_SHOTGUN
+        weaponAmmo: STR_SMALL_SHOTGUN_SHELLS
+        status: 6
+        faction: 1
+        mission: 11
+        turn: 3327
+        side: 3
+        bodypart: 4
+        id: 1000000
+      - type: STR_FENRIR_TERRORIST
+        rank: STR_LIVE_TERRORIST
+        race: STR_FENRIR
+        weapon: STR_SMALL_SHOTGUN
+        weaponAmmo: STR_SMALL_SHOTGUN_SHELLS
+        status: 7
+        faction: 1
+        mission: 13
+        turn: 3907
+        side: 2
+        bodypart: 2
+        id: 1000000
+      missionIdList:
+      - 5
+      - 6
+      - 10
+      - 11
+      - 13
+      totalShotFriendlyCounter: 2
+      monthsService: 1
+      shotAtCounterTotal: 1
+      shotsFiredCounterTotal: 9
+      shotsLandedCounterTotal: 16
+      allAliensStunnedTotal: 2
+      statGainTotal: 210
+      braveryGainTotal: 55
+    transformationBonuses:
+      STR_CAREER_ENTERTAINER: 1
+  - type: STR_SOLDIER
+    id: 10
+    name: Daniel Ferrier
+    nationality: 30
+    initialStats:
+      tu: 53
+      stamina: 45
+      health: 25
+      bravery: 40
+      reactions: 30
+      firing: 54
+      throwing: 53
+      strength: 24
+      psiStrength: 52
+      psiSkill: 0
+      melee: 36
+      mana: 20
+    currentStats:
+      tu: 100
+      stamina: 100
+      health: 100
+      bravery: 100
+      reactions: 100
+      firing: 100
+      throwing: 100
+      strength: 100
+      psiStrength: 100
+      psiSkill: 100
+      melee: 100
+      mana: 100
+    rank: 1
+    gender: 0
+    look: 1
+    lookVariant: 57
+    missions: 4
+    kills: 0
+    stuns: 2
+    recovery: 18
+    armor: STR_SUIT_UC
+    improvement: 0
+    psiStrImprovement: 0
+    equipmentLayout:
+    - itemType: STR_GLOCK_18
+      slot: STR_QD_SLOT
+      ammoItem: STR_GLOCK_18_CLIP
+      ammoItemSlots:
+      - STR_GLOCK_18_CLIP
+    - itemType: STR_TASER
+      slot: STR_RIGHT_HAND
+      ammoItem: STR_TASER_CLIP
+      ammoItemSlots:
+      - STR_TASER_CLIP
+    - itemType: STR_HANDCUFFS
+      slot: STR_RIGHT_LEG
+      slotX: 1
+    - itemType: STR_GLOCK_18_CLIP
+      slot: STR_BELT
+    - itemType: STR_GLOCK_18_CLIP
+      slot: STR_BELT
+      slotX: 1
+    - itemType: STR_TASER_CLIP
+      slot: STR_RIGHT_SHOULDER
+      slotX: 1
+    - itemType: STR_TASER_CLIP
+      slot: STR_LEFT_SHOULDER
+    diary:
+      commendations:
+      - commendationName: STR_MEDAL_STATGAIN_NAME
+        decorationLevel: 5
+      - commendationName: STR_MEDAL_TASEMASTER_NAME
+        decorationLevel: 0
+      - commendationName: STR_MEDAL_CRIMSON_HEART_NAME
+        decorationLevel: 0
+      - commendationName: STR_MEDAL_PURPLE_HEART_NAME
+        decorationLevel: 0
+      killList:
+      - type: STR_HUMAN_FARMER
+        rank: STR_LIVE_SOLDIER
+        race: STR_HUMAN
+        weapon: STR_TASER
+        weaponAmmo: STR_TASER_CLIP
+        status: 7
+        faction: 1
+        mission: 6
+        turn: 1806
+        side: 0
+        bodypart: 1
+        id: 1000000
+      - type: STR_ZSRR_GANGER
+        rank: STR_LIVE_SOLDIER
+        race: STR_ZSRR
+        weapon: STR_TASER
+        weaponAmmo: STR_TASER_CLIP
+        status: 7
+        faction: 1
+        mission: 10
+        turn: 3009
+        side: 0
+        bodypart: 1
+        id: 1000000
+      missionIdList:
+      - 5
+      - 6
+      - 10
+      - 13
+      daysWoundedTotal: 20
+      totalShotByFriendlyCounter: 2
+      monthsService: 1
+      shotAtCounterTotal: 2
+      hitCounterTotal: 6
+      shotsFiredCounterTotal: 14
+      shotsLandedCounterTotal: 7
+      timesWoundedTotal: 1
+      allAliensStunnedTotal: 2
+      statGainTotal: 280
+      braveryGainTotal: 25
+    transformationBonuses:
+      STR_CAREER_NEGOTIATOR: 1
+  crafts:
+  - lon: 0.4207849116612607
+    lat: -0.6175649922343541
+    id: 1
+    speedLon: 0
+    speedLat: 0
+    speedRadian: 0
+    speed: 0
+    type: STR_CIVILIAN_CAR
+    fuel: 9999
+    damage: 0
+    shield: 0
+    items:
+      STR_ELECTRO_FLARE: 2
+      STR_GLOCK_18: 2
+      STR_GLOCK_18_CLIP: 6
+      STR_HANDCUFFS: 2
+      STR_MAG_LITE: 2
+      STR_MEDI_PACK: 1
+      STR_SMALL_SHOTGUN: 1
+      STR_SMALL_SHOTGUN_SHELLS: 2
+      STR_TASER: 2
+      STR_TASER_CLIP: 6
+    status: STR_READY
+    lonAuto: 0
+    latAuto: 0
+    pilots:
+    - 8
+  - lon: 0.4207849116612607
+    lat: -0.6175649922343541
+    id: 1
+    speedLon: 0
+    speedLat: 0
+    speedRadian: 0
+    speed: 0
+    type: STR_VAN
+    fuel: 9999
+    damage: 0
+    shield: 0
+    items:
+      STR_ELECTRO_FLARE: 4
+      STR_GLOCK_18: 4
+      STR_GLOCK_18_CLIP: 12
+      STR_HANDCUFFS: 4
+      STR_MAG_LITE: 4
+      STR_MEDI_PACK: 2
+      STR_SMALL_SHOTGUN: 2
+      STR_SMALL_SHOTGUN_SHELLS: 6
+      STR_TASER: 4
+      STR_TASER_CLIP: 12
+    status: STR_READY
+    lonAuto: 0
+    latAuto: 0
+    pilots:
+    - 5
+  items:
+    STR_BASEBALL_BAT: 1
+    STR_BLACK_LOTUS_FOLLOWER: 1
+    STR_BULLFROG_CORPSE: 1
+    STR_COMBAT_KNIFE: 4
+    STR_DURATHREAD: 1
+    STR_ELECTRIC_CLUB: 5
+    STR_ELECTRO_FLARE: 4
+    STR_ETRACE: 2
+    STR_EXALT_INFILTRATOR: 1
+    STR_FENRIR_CORPSE: 1
+    STR_FENRIR_TERRORIST: 1
+    STR_GIANT_SPIDER_CORPSE: 1
+    STR_GLOCK_18: 8
+    STR_GLOCK_18_CLIP: 32
+    STR_GOLF_STICK: 1
+    STR_HANDCUFFS: 2
+    STR_HUMAN_FARMER: 1
+    STR_MAG_LITE: 2
+    STR_MEDI_PACK: 4
+    STR_MONEY_5000: 1
+    STR_MONEY_BRIEFCASE: 1
+    STR_PISTOL_LT: 1
+    STR_PISTOL_LT_CLIP: 2
+    STR_PUMP_ACTION: 3
+    STR_PUMP_ACTION_SHELLS: 6
+    STR_SECRET_FILES_1: 3
+    STR_SHIV: 1
+    STR_SHOTGUN: 1
+    STR_SHOTGUN_SHELLS_AP: 5
+    STR_SMALL_SHOTGUN_SHELLS: 19
+    STR_SPORTING_RIFLE: 2
+    STR_SPORTING_RIFLE_CLIP: 10
+    STR_TASER: 2
+    STR_TASER_CLIP: 25
+    STR_UZI: 1
+    STR_UZI_CLIP: 3
+    STR_WEAPON_BOX: 1
+    STR_WERECAT_CORPSE: 1
+    STR_WEREWOLF_CORPSE: 1
+    STR_ZOMBIE_GRUBAS_CORPSE: 1
+    STR_ZOMBIE_STERILE_CORPSE: 1
+    STR_ZOMBIE_STERILE_TERRORIST: 1
+    STR_ZSRR_GANGER: 1
+  scientists: 0
+  engineers: 0
+  transfers:
+  - hours: 18
+    itemId: STR_LEATHER_COAT
+    itemQty: 2
+  research:
+  - project: STR_CHURCH_OF_DAGON
+    assigned: 2
+    spent: 2
+    cost: 5
+  - project: STR_SECRET_FILES_1
+    assigned: 1
+    spent: 0
+    cost: 2
+  - project: STR_ZSRR_GANGER
+    assigned: 2
+    spent: 5
+    cost: 5
+  productions:
+  - item: STR_WEAPON_BOX_OPENING
+    assigned: 1
+    spent: 6
+    amount: 2
+    infinite: false
+    randomProductionInfo:
+      STR_GLOCK_18: 1
+      STR_GLOCK_18_CLIP: 5
+- lon: 2.323254605408912
+  lat: 0.3674811266762644
+  name: Beaver Project
+  facilities:
+  - type: STR_ACCESS_LIFT
+    x: 1
+    y: 2
+  - type: STR_HANGAR
+    x: 1
+    y: 0
+  - type: STR_GENERAL_STORES_2
+    x: 2
+    y: 2
+  items: {}
+  scientists: 0
+  engineers: 0
+missionSites:
+- lon: 0.7766715171374767
+  lat: -0.5803219762881145
+  id: 9
+  type: STR_CULT_APPREHENSION_ZSRR
+  deployment: STR_CULT_APPREHENSION_ZSRR
+  texture: -1
+  secondsRemaining: 370800
+  race: STR_ZSRR
+  detected: true
+- lon: 2.4689427598711786
+  lat: -0.7625343501963224
+  id: 10
+  type: STR_CULT_APPREHENSION_BLACK_LOTUS
+  deployment: STR_CULT_APPREHENSION_BLACK_LOTUS
+  texture: -1
+  secondsRemaining: 291600
+  race: STR_BLACK_LOTUS
+  detected: true
+discovered:
+- STR_AXE
+- STR_BASIC_OPERATIONS
+- STR_BLACK_LOTUS_FOLLOWER
+- STR_BLACK_LOTUS_FOLLOWER_ARMOR
+- STR_CHIEF_ACCOUNTANT_INTRODUCTION
+- STR_CHIEF_MEDICAL_OFFICER_INTRODUCTION
+- STR_COVER_SPORTSMEN
+- STR_COVER_WORKERS
+- STR_CULTIST_INTERROGATED
+- STR_CYBERINVESTIGATIONS
+- STR_DOSSIER_DRAKO_ALDRAMIER
+- STR_DOSSIER_THOMAS_ERICKSON
+- STR_FARMER
+- STR_HUMAN_FARMER
+- STR_HUMAN_FARMER_ARMOR
+- STR_INTELLIGENCE_OFFICER_INTRODUCTION
+- STR_LEATHER_COAT
+- STR_LOGISTICS
+- STR_MALE_CIVILIAN_WORKER_ARMOR
+- STR_MEDICINE
+- STR_MONEY_5000
+- STR_MONEY_BRIEFCASE
+- STR_NONSTANDARD_WEAPONS
+- STR_PERSONAL_PROTECTION
+- STR_POLAR_SUIT
+- STR_QUARTERMASTER_INTRODUCTION
+- STR_SECRET_FILES_1
+- STR_SPORTING_RIFLE
+- STR_STAFF_001
+- STR_SUPPORTER_OF_DAGON
+- STR_SUPPORTER_OF_DAGON_ARMOR
+- STR_VAN
+- STR_WEAPON_BOX
+- STR_WHAT_DO_NOW_MILESTONE_0
+- STR_WORKSUIT
+researchDiary:
+- date:
+  - 1996
+  - 12
+  - 30
+  name: STR_INTELLIGENCE_OFFICER_INTRODUCTION
+  sourceType: 4
+  sourceName: STR_INTELLIGENCE_OFFICER_INTRODUCTION
+- date:
+  - 1996
+  - 12
+  - 30
+  name: STR_QUARTERMASTER_INTRODUCTION
+  sourceType: 4
+  sourceName: STR_QUARTERMASTER_INTRODUCTION
+- date:
+  - 1996
+  - 12
+  - 31
+  name: STR_CHIEF_ACCOUNTANT_INTRODUCTION
+  sourceType: 4
+  sourceName: STR_CHIEF_ACCOUNTANT_INTRODUCTION
+- date:
+  - 1996
+  - 12
+  - 31
+  name: STR_CHIEF_MEDICAL_OFFICER_INTRODUCTION
+  sourceType: 4
+  sourceName: STR_CHIEF_MEDICAL_OFFICER_INTRODUCTION
+- date:
+  - 1997
+  - 1
+  - 6
+  name: STR_BASIC_OPERATIONS
+  sourceType: 0
+  sourceName: Hydra Base
+- date:
+  - 1997
+  - 1
+  - 6
+  name: STR_COVER_WORKERS
+  sourceType: 2
+  sourceName: STR_BASIC_OPERATIONS
+- date:
+  - 1997
+  - 1
+  - 6
+  name: STR_MALE_CIVILIAN_WORKER_ARMOR
+  sourceType: 2
+  sourceName: STR_BASIC_OPERATIONS
+- date:
+  - 1997
+  - 1
+  - 6
+  name: STR_WORKSUIT
+  sourceType: 2
+  sourceName: STR_BASIC_OPERATIONS
+- date:
+  - 1997
+  - 1
+  - 7
+  name: STR_WHAT_DO_NOW_MILESTONE_0
+  sourceType: 0
+  sourceName: Hydra Base
+- date:
+  - 1997
+  - 1
+  - 10
+  name: STR_CYBERINVESTIGATIONS
+  sourceType: 0
+  sourceName: Hydra Base
+- date:
+  - 1997
+  - 1
+  - 12
+  name: STR_PERSONAL_PROTECTION
+  sourceType: 0
+  sourceName: Hydra Base
+- date:
+  - 1997
+  - 1
+  - 12
+  name: STR_LEATHER_COAT
+  sourceType: 1
+  sourceName: STR_PERSONAL_PROTECTION
+- date:
+  - 1997
+  - 1
+  - 12
+  name: STR_LOGISTICS
+  sourceType: 0
+  sourceName: Hydra Base
+- date:
+  - 1997
+  - 1
+  - 12
+  name: STR_VAN
+  sourceType: 2
+  sourceName: STR_LOGISTICS
+- date:
+  - 1997
+  - 1
+  - 12
+  name: STR_MEDICINE
+  sourceType: 0
+  sourceName: Hydra Base
+- date:
+  - 1997
+  - 1
+  - 12
+  name: STR_COVER_SPORTSMEN
+  sourceType: 0
+  sourceName: Hydra Base
+- date:
+  - 1997
+  - 1
+  - 12
+  name: STR_POLAR_SUIT
+  sourceType: 2
+  sourceName: STR_COVER_SPORTSMEN
+- date:
+  - 1997
+  - 1
+  - 12
+  name: STR_SPORTING_RIFLE
+  sourceType: 2
+  sourceName: STR_COVER_SPORTSMEN
+- date:
+  - 1997
+  - 1
+  - 13
+  name: STR_MONEY_BRIEFCASE
+  sourceType: 0
+  sourceName: Hydra Base
+- date:
+  - 1997
+  - 1
+  - 13
+  name: STR_WEAPON_BOX
+  sourceType: 0
+  sourceName: Hydra Base
+- date:
+  - 1997
+  - 1
+  - 25
+  name: STR_HUMAN_FARMER
+  sourceType: 0
+  sourceName: Hydra Base
+- date:
+  - 1997
+  - 1
+  - 25
+  name: STR_AXE
+  sourceType: 1
+  sourceName: STR_HUMAN_FARMER
+- date:
+  - 1997
+  - 1
+  - 25
+  name: STR_FARMER
+  sourceType: 2
+  sourceName: STR_HUMAN_FARMER
+- date:
+  - 1997
+  - 1
+  - 25
+  name: STR_HUMAN_FARMER_ARMOR
+  sourceType: 2
+  sourceName: STR_HUMAN_FARMER
+- date:
+  - 1997
+  - 1
+  - 27
+  name: STR_NONSTANDARD_WEAPONS
+  sourceType: 0
+  sourceName: Hydra Base
+- date:
+  - 1997
+  - 1
+  - 28
+  name: STR_SUPPORTER_OF_DAGON
+  sourceType: 0
+  sourceName: Hydra Base
+- date:
+  - 1997
+  - 1
+  - 28
+  name: STR_DOSSIER_THOMAS_ERICKSON
+  sourceType: 1
+  sourceName: STR_SUPPORTER_OF_DAGON
+- date:
+  - 1997
+  - 1
+  - 28
+  name: STR_CULTIST_INTERROGATED
+  sourceType: 2
+  sourceName: STR_SUPPORTER_OF_DAGON
+- date:
+  - 1997
+  - 1
+  - 28
+  name: STR_SUPPORTER_OF_DAGON_ARMOR
+  sourceType: 2
+  sourceName: STR_SUPPORTER_OF_DAGON
+- date:
+  - 1997
+  - 1
+  - 28
+  name: STR_MONEY_5000
+  sourceType: 0
+  sourceName: Hydra Base
+- date:
+  - 1997
+  - 1
+  - 29
+  name: STR_SECRET_FILES_1
+  sourceType: 0
+  sourceName: Hydra Base
+- date:
+  - 1997
+  - 1
+  - 29
+  name: STR_DOSSIER_DRAKO_ALDRAMIER
+  sourceType: 1
+  sourceName: STR_SECRET_FILES_1
+- date:
+  - 1997
+  - 1
+  - 30
+  name: STR_BLACK_LOTUS_FOLLOWER
+  sourceType: 0
+  sourceName: Hydra Base
+- date:
+  - 1997
+  - 1
+  - 30
+  name: STR_STAFF_001
+  sourceType: 1
+  sourceName: STR_BLACK_LOTUS_FOLLOWER
+- date:
+  - 1997
+  - 1
+  - 30
+  name: STR_BLACK_LOTUS_FOLLOWER_ARMOR
+  sourceType: 2
+  sourceName: STR_BLACK_LOTUS_FOLLOWER
+poppedResearch:
+- STR_DOG_RECRUITMENT
+- STR_CROWBAR_BUY
+- STR_VEST_BUSINESS_SUIT
+- STR_ADVANCED_MEDICINE
+- STR_TRAUMA_PACK
+- STR_COVER_SURFERS
+- STR_SPORTING_BOW
+- STR_GLOCK_18_LARGE_CLIP
+- STR_MAGNUM_BUY
+- STR_SHOTGUN_BUY
+- STR_UZI_BUY
+- STR_AGRICULTURAL_FLAMER_BUY
+- STR_CHURCH_OF_DAGON
+- STR_BLACK_LOTUS
+generatedEvents:
+  STR_CHIEF_ACCOUNTANT_INTRODUCTION: 1
+  STR_CHIEF_MEDICAL_OFFICER_INTRODUCTION: 1
+  STR_CHUPACABRA_GORE_PILE: 1
+  STR_INTELLIGENCE_OFFICER_INTRODUCTION: 1
+  STR_INVESTIGATED: 1
+  STR_LEAGUE_SUICIDAL_CONFESSIONS: 1
+  STR_MYSTERIOUS_SPONSOR_250000: 1
+  STR_QUARTERMASTER_INTRODUCTION: 1
+  STR_ZOMBIES_ITS_THE_ZOMBIES: 1
+ufopediaRuleStatus:
+  STR_ACCESS_LIFT: 0
+  STR_ACCURACY: 0
+  STR_ANIMAL_CAGES: 0
+  STR_AXE: 1
+  STR_BASIC_OPERATIONS: 1
+  STR_BERETTA_92FS: 0
+  STR_BLACK_LOTUS_FOLLOWER: 1
+  STR_BLACK_LOTUS_FOLLOWER_ARMOR: 0
+  STR_CAMERA_ARMOR: 0
+  STR_CAMO: 0
+  STR_CANNONS: 0
+  STR_CAREER_ADEPT: 0
+  STR_CAREER_ARISTOCRAT: 0
+  STR_CAREER_ASTRONAUT: 0
+  STR_CAREER_ASTRONOMER: 0
+  STR_CAREER_ATHLETE: 0
+  STR_CAREER_BODYGUARD: 0
+  STR_CAREER_COACH: 0
+  STR_CAREER_COMMONER: 0
+  STR_CAREER_DATA_ANALYST: 0
+  STR_CAREER_DELIVERY_MAN: 0
+  STR_CAREER_DETECTIVE: 0
+  STR_CAREER_DRIVER: 0
+  STR_CAREER_ENGINEER: 0
+  STR_CAREER_ENTERTAINER: 0
+  STR_CAREER_EXPLORER: 0
+  STR_CAREER_FARMER: 0
+  STR_CAREER_FENCER: 0
+  STR_CAREER_FIREMAN: 0
+  STR_CAREER_HISTORIAN: 0
+  STR_CAREER_HUNTER: 0
+  STR_CAREER_ILLUSIONIST: 0
+  STR_CAREER_INSTITUTIONALIZED: 0
+  STR_CAREER_JOURNALIST: 0
+  STR_CAREER_LABORER: 0
+  STR_CAREER_MARINE: 0
+  STR_CAREER_MARKSMAN: 0
+  STR_CAREER_MARTIAL_ARTIST: 0
+  STR_CAREER_MEDIC: 0
+  STR_CAREER_MERCENARY: 0
+  STR_CAREER_MOUNTAINEER: 0
+  STR_CAREER_MYSTERY_HUNTER: 0
+  STR_CAREER_MYSTIC: 0
+  STR_CAREER_NEGOTIATOR: 0
+  STR_CAREER_PILOT: 0
+  STR_CAREER_POLICE_OFFICER: 0
+  STR_CAREER_PRIEST: 0
+  STR_CAREER_PSYCHOLOGIST: 0
+  STR_CAREER_PUNK: 0
+  STR_CAREER_RANGER: 0
+  STR_CAREER_SAILOR: 0
+  STR_CAREER_SAPPER: 0
+  STR_CAREER_SECRET_AGENT: 0
+  STR_CAREER_SOLDIER: 0
+  STR_CAREER_SPY: 0
+  STR_CAREER_STUDENT: 0
+  STR_CAREER_THIEF: 0
+  STR_CAREER_TRADER: 0
+  STR_CHIEF_ACCOUNTANT_INTRODUCTION: 1
+  STR_CHIEF_MEDICAL_OFFICER_INTRODUCTION: 1
+  STR_CIVILIAN_CAR: 0
+  STR_COLT45: 0
+  STR_COMBAT_KNIFE: 1
+  STR_CONCEALABLE_ITEMS: 0
+  STR_CORRIDOR: 0
+  STR_COUNCIL_SALVAGER_ARMOR: 0
+  STR_COUNCIL_SALVAGE_CORPS: 0
+  STR_COVER_SPORTSMEN: 0
+  STR_COVER_WORKERS: 0
+  STR_CQC: 0
+  STR_CRAFT_EQUIPMENT_TYPES: 0
+  STR_CRIMINAL_RECORDS: 0
+  STR_CROWD_CONTROL: 0
+  STR_CYBERINVESTIGATIONS: 1
+  STR_DAMAGE: 0
+  STR_DAMAGE_ROLLS: 0
+  STR_DIVING_SUIT_UC: 1
+  STR_DOSSIERS: 0
+  STR_DOSSIER_DRAKO_ALDRAMIER: 1
+  STR_DOSSIER_THOMAS_ERICKSON: 1
+  STR_ELECTRIC_CLUB: 1
+  STR_ELECTRO_FLARE: 0
+  STR_ENEMY_REINFORCEMENTS: 0
+  STR_FARMER: 0
+  STR_FEMALE_CIVILIAN_ARAB_ARMOR: 0
+  STR_FEMALE_CIVILIAN_CITY_GIRL_ARMOR: 0
+  STR_FEMALE_CIVILIAN_POLARNIK_ARMOR: 0
+  STR_FIRE_DAMAGE: 0
+  STR_FIRE_EXTINGUISHER: 0
+  STR_FIRE_SPRAYING: 0
+  STR_FIRST_AID: 0
+  STR_FOUND_ITEMS: 0
+  STR_FRIENDS_ON_THE_COUNCIL_01: 0
+  STR_FRIENDS_ON_THE_COUNCIL_02: 0
+  STR_GENERAL_STORES: 0
+  STR_GENERAL_STORES_2: 0
+  STR_GLOCK_18: 0
+  STR_GYM: 0
+  STR_HANDCUFFS: 0
+  STR_HANGAR: 0
+  STR_HEAT_VISION: 0
+  STR_HOTKEYS_BATTLESCAPE: 0
+  STR_HOTKEYS_GEOSCAPE: 0
+  STR_HQ: 0
+  STR_HUMAN_FARMER_ARMOR: 0
+  STR_ILLEGAL_REQUISITION_FILES: 0
+  STR_INCENDIARIES: 0
+  STR_INTELLIGENCE_OFFICER_INTRODUCTION: 1
+  STR_LAUNCHERS: 0
+  STR_LEATHER_COAT_UC: 1
+  STR_LIVING_QUARTERS: 0
+  STR_LIVING_QUARTERS_2: 0
+  STR_LOGISTICS: 1
+  STR_LOOK_AROUND: 0
+  STR_MACHINE_GUNS: 0
+  STR_MAG_LITE: 0
+  STR_MALE_CIVILIAN_ARAB_ARMOR: 0
+  STR_MALE_CIVILIAN_BEDUIN_ARMOR: 0
+  STR_MALE_CIVILIAN_BEDUIN_CHIEFTAIN_ARMOR: 0
+  STR_MALE_CIVILIAN_BEDUIN_WARRIOR_ARMOR: 0
+  STR_MALE_CIVILIAN_BLACK_ARMOR: 0
+  STR_MALE_CIVILIAN_CITY_BOY_ARMOR: 0
+  STR_MALE_CIVILIAN_GANGER_ARMOR: 0
+  STR_MALE_CIVILIAN_POLARNIK_ARMOR: 0
+  STR_MALE_CIVILIAN_WORKER_ARMOR: 0
+  STR_MALE_DETECTIVE_ARMOR: 0
+  STR_MALE_FORESTER_ARMOR: 0
+  STR_MALE_SAILOR_ARMOR: 0
+  STR_MEDAL_7V7KILL_NAME: 0
+  STR_MEDAL_ALIEN_BASE_ASSAULT_NAME: 0
+  STR_MEDAL_AQUANAUT_NAME: 0
+  STR_MEDAL_ASSAULTER_NAME: 0
+  STR_MEDAL_BASE_DEFENSE_NAME: 0
+  STR_MEDAL_BETRAYER_NAME: 0
+  STR_MEDAL_BOMBARDIER_NAME: 0
+  STR_MEDAL_CAMPAIGN_RIBBON_NAME: 0
+  STR_MEDAL_CANNONEER_NAME: 0
+  STR_MEDAL_CARREER_CAPTURES_NAME: 0
+  STR_MEDAL_CARREER_KILLS_NAME: 0
+  STR_MEDAL_CARREER_MISSIONS_NAME: 1
+  STR_MEDAL_CARREER_SCORE_NAME: 0
+  STR_MEDAL_COMMENDATED_NAME: 0
+  STR_MEDAL_CRIMSON_HEART_NAME: 1
+  STR_MEDAL_DBLKILL_NAME: 0
+  STR_MEDAL_DREAMWALKER_NAME: 0
+  STR_MEDAL_GLOBETROTTER_NAME: 0
+  STR_MEDAL_GRENADIER_NAME: 0
+  STR_MEDAL_GUNNER_NAME: 0
+  STR_MEDAL_GUNSLINGER_NAME: 0
+  STR_MEDAL_HEALER_NAME: 0
+  STR_MEDAL_HORIZON_WALKER_NAME: 0
+  STR_MEDAL_HUNTER_KILLER_NAME: 0
+  STR_MEDAL_INCAPACITATOR_NAME: 0
+  STR_MEDAL_INFILTRATOR_NAME: 0
+  STR_MEDAL_JUNGLE_MOWER_NAME: 0
+  STR_MEDAL_LONESURVIVOR_NAME: 0
+  STR_MEDAL_LUCKYSHOT_NAME: 0
+  STR_MEDAL_MAULER_NAME: 0
+  STR_MEDAL_MISSION_KILLS_11_NAME: 0
+  STR_MEDAL_MISSION_KILLS_5_NAME: 0
+  STR_MEDAL_MONSTER_NAME: 0
+  STR_MEDAL_NIGHTOPS_NAME: 0
+  STR_MEDAL_ORIGINAL8_NAME: 0
+  STR_MEDAL_PEST_CONTROLLER_NAME: 0
+  STR_MEDAL_PURIFIER_NAME: 0
+  STR_MEDAL_PURPLE_HEART_NAME: 1
+  STR_MEDAL_QUADKILL_NAME: 0
+  STR_MEDAL_RACE_KILLS_NAME: 0
+  STR_MEDAL_REACTIONFIRE_NAME: 0
+  STR_MEDAL_ROCKET_SCIENTIST_NAME: 0
+  STR_MEDAL_SAVEDALL_NAME: 1
+  STR_MEDAL_SERVICE_TIME_NAME: 0
+  STR_MEDAL_SHOTGUN_SURGEON_NAME: 0
+  STR_MEDAL_SLASHER_NAME: 0
+  STR_MEDAL_SLAVEKILLS_NAME: 0
+  STR_MEDAL_SNIPER_NAME: 0
+  STR_MEDAL_SORCERER_NAME: 0
+  STR_MEDAL_SPACER_NAME: 0
+  STR_MEDAL_SPELUNKER_NAME: 0
+  STR_MEDAL_STATGAIN_NAME: 1
+  STR_MEDAL_SUPPRESSOR_NAME: 0
+  STR_MEDAL_TASEMASTER_NAME: 0
+  STR_MEDAL_TECHNICIAN_NAME: 0
+  STR_MEDAL_TRADITIONALIST_NAME: 0
+  STR_MEDAL_TROOPER_NAME: 0
+  STR_MEDAL_WARRIOR_NAME: 0
+  STR_MEDAL_WEAPON_PROFICIENCY_NAME: 0
+  STR_MEDAL_WRESTLER_NAME: 0
+  STR_MEDICINE: 1
+  STR_MEDI_BAG: 0
+  STR_MEDI_PACK: 0
+  STR_MELEE: 0
+  STR_MISSIONS_AND_RESEARCH: 0
+  STR_MONEY_5000: 1
+  STR_MONEY_BRIEFCASE: 1
+  STR_MUDRANGER: 0
+  STR_NEED_TO_KNOW_BASIS: 0
+  STR_NIGHTVISION: 0
+  STR_NONSTANDARD_WEAPONS: 1
+  STR_OUTDATED_WEAPONS: 0
+  STR_OVERSTUN: 0
+  STR_PAINKILLER: 0
+  STR_PERSONAL_PROTECTION: 1
+  STR_PILOTS: 0
+  STR_PISTOLS: 0
+  STR_PISTOL_LT: 0
+  STR_POLAR_SUIT_UC: 1
+  STR_PRISON_CELLS: 0
+  STR_PUBLIC_TRANSPORT: 0
+  STR_PUMP_ACTION: 0
+  STR_QUARTERMASTER_INTRODUCTION: 1
+  STR_READINESS: 0
+  STR_RETREAT: 0
+  STR_RIFLES: 0
+  STR_SECRET_CULTS: 0
+  STR_SHOTGUNS: 0
+  STR_SMALL_SHOTGUN: 0
+  STR_SMGS: 0
+  STR_SMOKE_DAMAGE: 0
+  STR_SNIPER_RIFLES: 0
+  STR_SNIPER_SPOTTER_COOPERATION: 0
+  STR_SNUBNOSE_PISTOL: 0
+  STR_SPORTING_RIFLE: 0
+  STR_STAFF_001: 1
+  STR_STIMS: 0
+  STR_SUIT_UC: 1
+  STR_SUPPORTER_OF_DAGON: 1
+  STR_SUPPORTER_OF_DAGON_ARMOR: 0
+  STR_SURRENDER: 0
+  STR_TASER: 1
+  STR_TEAMWORK: 0
+  STR_TRANSFORMATIONS: 0
+  STR_UNARMED_COMBAT: 0
+  STR_UNARMED_COMMANDO: 0
+  STR_UNARMED_DIVING_SUIT: 0
+  STR_UNARMED_KARATE: 0
+  STR_UNARMED_LEATHER_COAT: 0
+  STR_UNARMED_POLAR_SUIT: 0
+  STR_UNARMED_SUIT: 1
+  STR_UNARMED_THUG: 0
+  STR_VAN: 0
+  STR_WEAPON_BOX: 1
+  STR_WHAT_DO_NOW_MILESTONE_0: 1
+  STR_WORKSUIT_UC: 1
+  STR_XCOM_ORIGINS: 0
+  STR_XCOM_PERSONNEL: 0
+manufactureRuleStatus:
+  STR_WEAPON_BOX_OPENING: 1
+researchRuleStatus:
+  STR_BASIC_OPERATIONS: 1
+  STR_BLACK_LOTUS_FOLLOWER: 1
+  STR_CHURCH_OF_DAGON: 1
+  STR_COVER_SPORTSMEN: 1
+  STR_CYBERINVESTIGATIONS: 1
+  STR_HUMAN_FARMER: 1
+  STR_LOGISTICS: 1
+  STR_MEDICINE: 1
+  STR_MONEY_5000: 1
+  STR_MONEY_BRIEFCASE: 1
+  STR_NONSTANDARD_WEAPONS: 1
+  STR_PERSONAL_PROTECTION: 1
+  STR_SECRET_FILES_1: 1
+  STR_SUPPORTER_OF_DAGON: 1
+  STR_WEAPON_BOX: 1
+  STR_WHAT_DO_NOW_MILESTONE_0: 1
+  STR_ZSRR_GANGER: 1
+monthlyPurchaseLimitLog: {}
+hiddenPurchaseItems:
+  STR_COMBAT_KNIFE: false
+  STR_ELECTRIC_CLUB: false
+  STR_LEATHER_COAT: false
+customRuleCraftDeployments: {}
+alienStrategy:
+  regions:
+    STR_ANTARCTICA: 4
+    STR_ARCTIC: 4
+    STR_AUSTRALASIA: 10
+    STR_CENTRAL_ASIA: 12
+    STR_EUROPE: 16
+    STR_INDIAN_OCEAN: 5
+    STR_NORTH_AFRICA: 12
+    STR_NORTH_AMERICA: 18
+    STR_NORTH_ATLANTIC: 5
+    STR_PACIFIC: 5
+    STR_SIBERIA: 10
+    STR_SOUTHERN_AFRICA: 8
+    STR_SOUTH_AMERICA: 10
+    STR_SOUTH_ATLANTIC: 5
+    STR_SOUTH_EAST_ASIA: 15
+  possibleMissions:
+  - region: CYBERDREDNAUGHT_REGION
+    missions: null
+  - region: CYBERWEB_FORTRESS_REGION
+    missions: null
+  - region: CYBERWEB_POWER_PLANT_REGION
+    missions: null
+  - region: DIMENSION_X_BASE_DEFENSE_ARMY_REGION
+    missions: null
+  - region: DIMENSION_X_BASE_DEFENSE_FAUNA_REGION
+    missions: null
+  - region: DIMENSION_X_WRECK_REGION
+    missions: null
+  - region: REGION_ALIEN_DOWNTOWN_ATRACK
+    missions: null
+  - region: REGION_ALIEN_PURGE
+    missions: null
+  - region: REGION_ATLANTIS_TEMPLE
+    missions: null
+  - region: REGION_BLACK_LOTUS_HQ
+    missions: null
+  - region: REGION_BLACK_LOTUS_SHRINE
+    missions: null
+  - region: REGION_BLACK_MOON
+    missions: null
+  - region: REGION_DAGON_HQ
+    missions: null
+  - region: REGION_DAVID_VINCENT_HOUSE
+    missions: null
+  - region: REGION_DREAMSCAPE_VILLA
+    missions: null
+  - region: REGION_DR_ALPHA_ISLAND
+    missions: null
+  - region: REGION_EXALT_HQ
+    missions: null
+  - region: REGION_GERTRUDE_ELLISON_AMBUSH
+    missions: null
+  - region: REGION_LO_WO_REFUGE
+    missions: null
+  - region: REGION_MOON_ALIEN_COLONY_CORE
+    missions: null
+  - region: REGION_MOON_ALIEN_COLONY_MAIN
+    missions: null
+  - region: REGION_MOON_ALIEN_COLONY_SUBURBS
+    missions: null
+  - region: REGION_MOON_COSMONAUT_RESCUE
+    missions: null
+  - region: REGION_MOON_HYPERWAVE_RELAY
+    missions: null
+  - region: REGION_MOON_MIB_BASE
+    missions: null
+  - region: REGION_MOON_UAC_BASE
+    missions: null
+  - region: REGION_MOON_UNDERGROUND_CONDUITS
+    missions: null
+  - region: REGION_NATASHA_MOROZOVA_HIDEOUT
+    missions: null
+  - region: REGION_NECROMANCERS_DUNGEON
+    missions: null
+  - region: REGION_SILO_ATTACK
+    missions: null
+  - region: REGION_SPIDER_SIBERIA
+    missions: null
+  - region: REGION_TASOTH_FACTORY
+    missions: null
+  - region: REGION_UAC_SPACE_LAB
+    missions: null
+  - region: REGION_USTATION
+    missions: null
+  - region: REGION_ZSRR_DURATHREAD_FACTORY
+    missions: null
+  - region: REGION_ZSRR_GANG_WAR
+    missions: null
+  - region: REGION_ZSRR_HQ
+    missions: null
+  - region: STR_ANTARCTICA
+    missions: null
+  - region: STR_ARCTIC
+    missions: null
+  - region: STR_AUSTRALASIA
+    missions: null
+  - region: STR_CENTRAL_ASIA
+    missions: null
+  - region: STR_EUROPE
+    missions: null
+  - region: STR_INDIAN_OCEAN
+    missions: null
+  - region: STR_NORTH_AFRICA
+    missions: null
+  - region: STR_NORTH_AMERICA
+    missions: null
+  - region: STR_NORTH_ATLANTIC
+    missions: null
+  - region: STR_PACIFIC
+    missions: null
+  - region: STR_SIBERIA
+    missions: null
+  - region: STR_SOUTHERN_AFRICA
+    missions: null
+  - region: STR_SOUTH_AMERICA
+    missions: null
+  - region: STR_SOUTH_ATLANTIC
+    missions: null
+  - region: STR_SOUTH_EAST_ASIA
+    missions: null
+  missionLocations: {}
+  missionsRun: {}
+missionStatistics:
+- id: 0
+  markerName: STR_MONSTER_HUNT
+  markerId: 1
+  time:
+    second: 10
+    minute: 34
+    hour: 5
+    weekday: 3
+    day: 31
+    month: 12
+    year: 1996
+  region: STR_CENTRAL_ASIA
+  country: STR_INDIA
+  type: STR_MONSTERS_HUNT_SINGLE_JUNGLE
+  ufo: NO_UFO
+  success: true
+  score: 83
+  rating: STR_MS_RATING_75
+  alienRace: STR_BULLFROG
+  daylight: 0
+  valiantCrux: true
+  lootValue: -500
+- id: 1
+  markerName: STR_CULT_APPREHENSION
+  markerId: 1
+  time:
+    second: 35
+    minute: 52
+    hour: 23
+    weekday: 5
+    day: 2
+    month: 1
+    year: 1997
+  region: STR_PACIFIC
+  country: STR_UNKNOWN
+  type: STR_CULT_APPREHENSION_BLACK_LOTUS
+  ufo: NO_UFO
+  success: true
+  score: 8
+  rating: STR_MS_RATING_0
+  alienRace: STR_BLACK_LOTUS
+  daylight: 0
+  lootValue: -500
+- id: 2
+  markerName: STR_MONSTER_HUNT
+  markerId: 2
+  time:
+    second: 0
+    minute: 22
+    hour: 10
+    weekday: 2
+    day: 6
+    month: 1
+    year: 1997
+  region: STR_SOUTH_EAST_ASIA
+  country: STR_THAILAND
+  type: STR_MONSTERS_HUNT_SINGLE_TEMPERATE
+  ufo: NO_UFO
+  success: true
+  score: 113
+  rating: STR_MS_RATING_75
+  alienRace: STR_FENRIR
+  daylight: 2
+  valiantCrux: true
+  lootValue: -500
+- id: 3
+  markerName: STR_MONSTER_HUNT
+  markerId: 3
+  time:
+    second: 50
+    minute: 36
+    hour: 19
+    weekday: 4
+    day: 8
+    month: 1
+    year: 1997
+  region: STR_ARCTIC
+  country: STR_USA
+  type: STR_MONSTERS_HUNT_SEVERAL_COLD
+  ufo: NO_UFO
+  success: true
+  score: 43
+  rating: STR_MS_RATING_0
+  alienRace: STR_ZOMBIE_STERILE
+  daylight: 12
+  lootValue: -500
+- id: 4
+  markerName: STR_CULT_APPREHENSION
+  markerId: 2
+  time:
+    second: 25
+    minute: 9
+    hour: 22
+    weekday: 6
+    day: 10
+    month: 1
+    year: 1997
+  region: STR_SOUTH_AMERICA
+  country: STR_BRAZIL
+  type: STR_CULT_APPREHENSION_EXALT
+  ufo: NO_UFO
+  success: true
+  score: 8
+  rating: STR_MS_RATING_0
+  alienRace: STR_EXALT
+  daylight: 15
+  lootValue: -500
+- id: 5
+  markerName: STR_CULT_APPREHENSION
+  markerId: 3
+  time:
+    second: 10
+    minute: 54
+    hour: 4
+    weekday: 1
+    day: 12
+    month: 1
+    year: 1997
+  region: STR_EUROPE
+  country: STR_RUSSIA
+  type: STR_CULT_APPREHENSION_ZSRR
+  ufo: NO_UFO
+  success: true
+  score: 8
+  rating: STR_MS_RATING_0
+  alienRace: STR_ZSRR
+  daylight: 4
+  lootValue: -500
+- id: 6
+  markerName: STR_CROP_CIRCLES
+  markerId: 1
+  time:
+    second: 55
+    minute: 37
+    hour: 7
+    weekday: 5
+    day: 16
+    month: 1
+    year: 1997
+  region: STR_SOUTHERN_AFRICA
+  country: STR_SOUTH_AFRICA
+  type: STR_CROP_CIRCLES
+  ufo: NO_UFO
+  success: true
+  score: 58
+  rating: STR_MS_RATING_0
+  alienRace: STR_FARMER
+  daylight: 0
+  lootValue: -500
+- id: 7
+  markerName: STR_MONSTER_HUNT
+  markerId: 4
+  time:
+    second: 20
+    minute: 30
+    hour: 22
+    weekday: 6
+    day: 17
+    month: 1
+    year: 1997
+  region: STR_SOUTH_AMERICA
+  country: STR_ARGENTINA
+  type: STR_MONSTERS_HUNT_FEW_COLD
+  ufo: NO_UFO
+  success: true
+  score: 20
+  rating: STR_MS_RATING_0
+  alienRace: STR_WEREWOLF
+  daylight: 2
+  lootValue: -500
+- id: 8
+  markerName: STR_MONSTER_HUNT
+  markerId: 5
+  time:
+    second: 10
+    minute: 55
+    hour: 1
+    weekday: 7
+    day: 18
+    month: 1
+    year: 1997
+  region: STR_CENTRAL_ASIA
+  country: STR_TURKMENISTAN
+  type: STR_MONSTERS_HUNT_SINGLE_DESERT
+  ufo: NO_UFO
+  success: true
+  score: 50
+  rating: STR_MS_RATING_0
+  alienRace: STR_WERECAT
+  daylight: 12
+  valiantCrux: true
+  lootValue: -500
+- id: 9
+  markerName: STR_CULT_APPREHENSION
+  markerId: 6
+  time:
+    second: 55
+    minute: 10
+    hour: 20
+    weekday: 7
+    day: 18
+    month: 1
+    year: 1997
+  region: STR_EUROPE
+  country: STR_PORTUGAL
+  type: STR_CULT_APPREHENSION_CHURCH_OF_DAGON
+  ufo: NO_UFO
+  success: true
+  score: 4
+  rating: STR_MS_RATING_0
+  alienRace: STR_CHURCH_OF_DAGON
+  daylight: 15
+  lootValue: -500
+- id: 10
+  markerName: STR_CULT_APPREHENSION
+  markerId: 4
+  time:
+    second: 55
+    minute: 29
+    hour: 4
+    weekday: 2
+    day: 20
+    month: 1
+    year: 1997
+  region: STR_SIBERIA
+  country: STR_RUSSIA
+  type: STR_CULT_APPREHENSION_ZSRR
+  ufo: NO_UFO
+  success: true
+  score: 8
+  rating: STR_MS_RATING_0
+  alienRace: STR_ZSRR
+  daylight: 2
+  lootValue: -500
+- id: 11
+  markerName: STR_MONSTER_HUNT
+  markerId: 6
+  time:
+    second: 25
+    minute: 14
+    hour: 10
+    weekday: 7
+    day: 25
+    month: 1
+    year: 1997
+  region: STR_AUSTRALASIA
+  country: STR_AUSTRALIA
+  type: STR_MONSTERS_HUNT_SEVERAL_DESERT
+  ufo: NO_UFO
+  success: true
+  score: 8
+  rating: STR_MS_RATING_0
+  alienRace: STR_GIANT_SPIDER
+  daylight: 2
+  injuryList:
+    6: 40
+  lootValue: -500
+- id: 12
+  markerName: STR_CULT_APPREHENSION
+  markerId: 8
+  time:
+    second: 35
+    minute: 53
+    hour: 22
+    weekday: 7
+    day: 25
+    month: 1
+    year: 1997
+  region: STR_PACIFIC
+  country: STR_UNKNOWN
+  type: STR_CULT_APPREHENSION_BLACK_LOTUS
+  ufo: NO_UFO
+  success: true
+  score: 8
+  rating: STR_MS_RATING_0
+  alienRace: STR_BLACK_LOTUS
+  daylight: 0
+  injuryList:
+    2: 39
+  lootValue: -500
+- id: 13
+  markerName: STR_MONSTER_HUNT
+  markerId: 7
+  time:
+    second: 0
+    minute: 27
+    hour: 2
+    weekday: 3
+    day: 28
+    month: 1
+    year: 1997
+  region: STR_SIBERIA
+  country: STR_RUSSIA
+  type: STR_MONSTERS_HUNT_SINGLE_COLD
+  ufo: NO_UFO
+  success: true
+  score: 40
+  rating: STR_MS_RATING_0
+  alienRace: STR_FENRIR
+  daylight: 1
+  injuryList:
+    10: 20
+  lootValue: -500
+- id: 14
+  markerName: STR_DEAD_CATTLE
+  markerId: 1
+  time:
+    second: 20
+    minute: 56
+    hour: 6
+    weekday: 4
+    day: 29
+    month: 1
+    year: 1997
+  region: STR_EUROPE
+  country: STR_ROMANIA
+  type: STR_DEAD_CATTLE
+  ufo: NO_UFO
+  success: true
+  score: 10
+  rating: STR_MS_RATING_0
+  alienRace: STR_FARMER
+  daylight: 0
+  injuryList:
+    8: 18
+  lootValue: -500
+options:
+  displayWidth: 1280
+  displayHeight: 960
+  fullscreen: false
+  asyncBlit: true
+  keyboardMode: 1
+  maxFrameSkip: 0
+  traceAI: false
+  verboseLogging: false
+  StereoSound: true
+  geoscapeScale: 3
+  battlescapeScale: 4
+  useScaleFilter: false
+  useHQXFilter: false
+  useXBRZFilter: false
+  useOpenGL: true
+  checkOpenGLErrors: false
+  useOpenGLShader: Shaders/crt-simple.opengl.shader
+  useOpenGLSmoothing: true
+  debug: false
+  debugUi: false
+  soundVolume: 84
+  musicVolume: 84
+  uiVolume: 42
+  language: en-GB
+  battleScrollSpeed: 8
+  battleEdgeScroll: 2
+  battleDragScrollButton: 2
+  dragScrollTimeTolerance: 300
+  dragScrollPixelTolerance: 10
+  battleFireSpeed: 6
+  battleXcomSpeed: 30
+  battleAlienSpeed: 30
+  battleNewPreviewPath: 3
+  fpsCounter: false
+  globeDetail: true
+  globeRadarLines: true
+  globeFlightPaths: true
+  globeAllRadarsOnBaseBuild: true
+  audioSampleRate: 22050
+  audioBitDepth: 16
+  audioChunkSize: 1024
+  pauseMode: 0
+  battleNotifyDeath: false
+  showFundsOnGeoscape: true
+  allowResize: false
+  windowedModePositionX: 0
+  windowedModePositionY: 0
+  borderless: false
+  captureMouse: false
+  battleTooltips: true
+  keepAspectRatio: true
+  nonSquarePixelRatio: false
+  cursorInBlackBandsInFullscreen: false
+  cursorInBlackBandsInWindow: true
+  cursorInBlackBandsInBorderlessWindow: false
+  saveOrder: 1
+  geoClockSpeed: 133
+  dogfightSpeed: 30
+  geoScrollSpeed: 100
+  geoDragScrollButton: 2
+  preferredMusic: 0
+  preferredSound: 0
+  preferredVideo: 0
+  wordwrap: 0
+  musicAlwaysLoop: false
+  touchEnabled: false
+  rootWindowedMode: false
+  backgroundMute: false
+  soldierDiaries: true
+  playIntro: true
+  autosave: true
+  autosaveFrequency: 5
+  newSeedOnLoad: false
+  lazyLoadResources: true
+  mousewheelSpeed: 3
+  changeValueByMouseWheel: 10
+  maximizeInfoScreens: true
+  FPS: 60
+  FPSInactive: 30
+  vSyncForOpenGL: true
+  geoDragScrollInvert: false
+  aggressiveRetaliation: false
+  customInitialBase: false
+  allowBuildingQueue: true
+  craftLaunchAlways: true
+  storageLimitsEnforced: true
+  canSellLiveAliens: true
+  anytimePsiTraining: true
+  globeSeasons: true
+  globeSurfaceCache: true
+  psiStrengthEval: true
+  canTransferCraftsWhileAirborne: true
+  retainCorpses: false
+  fieldPromotions: true
+  battleDragScrollInvert: false
+  sneakyAI: false
+  battleUFOExtenderAccuracy: true
+  showMoreStatsInInventoryView: true
+  battleHairBleach: true
+  battleInstantGrenade: false
+  includePrimeStateInSavedLayout: false
+  battleExplosionHeight: 2
+  battleAutoEnd: true
+  battleSmoothCamera: false
+  disableAutoEquip: false
+  battleConfirmFireMode: false
+  weaponSelfDestruction: false
+  allowPsionicCapture: true
+  allowPsiStrengthImprovement: false
+  strafe: true
+  forceFire: true
+  skipNextTurnScreen: false
+  noAlienPanicMessages: true
+  alienBleeding: true
+  keyOk: 13
+  keyCancel: 27
+  keyScreenshot: 293
+  keyFps: 288
+  keyQuickSave: 286
+  keyQuickLoad: 290
+  keyGeoLeft: 276
+  keyGeoRight: 275
+  keyGeoUp: 273
+  keyGeoDown: 274
+  keyGeoZoomIn: 43
+  keyGeoZoomOut: 45
+  keyGeoSpeed1: 49
+  keyGeoSpeed2: 50
+  keyGeoSpeed3: 51
+  keyGeoSpeed4: 52
+  keyGeoSpeed5: 53
+  keyGeoSpeed6: 54
+  keyGeoIntercept: 105
+  keyGeoBases: 98
+  keyGeoGraphs: 103
+  keyGeoUfopedia: 117
+  keyGeoOptions: 27
+  keyGeoFunding: 102
+  keyGeoToggleDetail: 9
+  keyGeoToggleRadar: 114
+  keyBaseSelect1: 49
+  keyBaseSelect2: 50
+  keyBaseSelect3: 51
+  keyBaseSelect4: 52
+  keyBaseSelect5: 53
+  keyBaseSelect6: 54
+  keyBaseSelect7: 55
+  keyBaseSelect8: 56
+  keyBattleLeft: 276
+  keyBattleRight: 275
+  keyBattleUp: 273
+  keyBattleDown: 274
+  keyBattleLevelUp: 280
+  keyBattleLevelDown: 281
+  keyBattleCenterUnit: 278
+  keyBattlePrevUnit: 0
+  keyBattleNextUnit: 9
+  keyBattleDeselectUnit: 92
+  keyBattleUseLeftHand: 113
+  keyBattleUseRightHand: 101
+  keyBattleInventory: 105
+  keyBattleMap: 109
+  keyBattleOptions: 27
+  keyBattleEndTurn: 8
+  keyBattleAbort: 97
+  keyBattleStats: 115
+  keyBattleKneel: 107
+  keyBattleReload: 114
+  keyBattlePersonalLighting: 108
+  keyBattleReserveNone: 282
+  keyBattleReserveSnap: 283
+  keyBattleReserveAimed: 284
+  keyBattleReserveAuto: 285
+  keyBattleReserveKneel: 106
+  keyBattleZeroTUs: 127
+  keyBattleCenterEnemy1: 49
+  keyBattleCenterEnemy2: 50
+  keyBattleCenterEnemy3: 51
+  keyBattleCenterEnemy4: 52
+  keyBattleCenterEnemy5: 53
+  keyBattleCenterEnemy6: 54
+  keyBattleCenterEnemy7: 55
+  keyBattleCenterEnemy8: 56
+  keyBattleCenterEnemy9: 57
+  keyBattleCenterEnemy10: 48
+  keyBattleVoxelView: 291
+  keyInvCreateTemplate: 99
+  keyInvApplyTemplate: 118
+  keyInvClear: 120
+  keyInvAutoEquip: 122
+  oxceModValidationLevel: 2
+  oxceRawScreenShots: false
+  oxceFirstPersonViewFisheyeProjection: false
+  oxceThumbButtons: true
+  oxceThrottleMouseMoveEvent: 0
+  oxceDisableThinkingProgressBar: false
+  oxceEmbeddedOnly: false
+  oxceListVFSContents: false
+  oxceEnablePaletteFlickerFix: false
+  oxceRecommendedOptionsWereSet: true
+  password: secret
+  oxceStartUpTextMode: 0
+  oxceGeoscapeDebugLogMaxEntries: 1000
+  oxceGeoSlowdownFactor: 1
+  oxceGeoShowScoreInsteadOfFunds: false
+  oxceGeoSuppressRedundantHKAlert: true
+  oxceGeoSuppressLandingWithoutEquipment: false
+  oxceGeoGoToNearestBase: false
+  oxceGeoSortCraftByDistanceToTarget: false
+  oxceBaseInfoDefenseScaleMultiplier: 100
+  oxceBaseSoldierTransformationShowOnlyEligible: false
+  oxceBaseFilterResearchable: false
+  oxceBaseManufactureFallbackButton: false
+  oxceBaseManufactureInfinityButton: false
+  oxceBaseTouchButtons: false
+  oxceDisableAlienInventory: false
+  oxceDisableHitLog: false
+  oxceDisableInventoryTuCost: false
+  oxceDisableProductionDependencyTree: false
+  oxceDisableStatsForNerds: false
+  oxceDisableTechTreeViewer: false
+  oxceTogglePersonalLightType: 1
+  oxceToggleNightVisionType: 1
+  oxceToggleBrightnessType: 0
+  oxceDisableInfoOnThrowCursor: false
+  oxceSwapDontReselectActions: false
+  oxceEnableUnitResponseSounds: true
+  oxceHiddenMovementBackgroundChangeFrequency: 1
+  oxceInventoryShowUnitSlot: false
+  oxceReplaceNotesLink: false
+  oxceInventorySplitScrollButton: false
+  oxceInventoryDropItemOverPaperdoll: false
+  oxceMaxEquipmentLayoutTemplates: 20
+  autosaveSlots: 2
+  oxceGeoAutosaveFrequency: 2
+  oxceGeoAutosaveSlots: 4
+  oxceLinks: true
+  oxceLinksDisableTextEdit: false
+  oxceFatFingerLinks: false
+  oxceBattleTouchButtonsEnabled: false
+  oxceQuickSearchButton: false
+  oxceHighlightNewTopics: true
+  oxcePediaShowClipSize: false
+  oxceInterceptTableSize: 8
+  oxceEnableSlackingIndicator: true
+  oxceInterceptGuiMaintenanceTime: 2
+  oxceShowETAMode: 0
+  oxceUfoLandingAlert: false
+  oxceRememberDisabledCraftWeapons: false
+  oxceGeoscapeEventsInstantDelivery: true
+  oxceShowBaseNameInPopups: true
+  oxceAlternateCraftEquipmentManagement: false
+  oxceBaseInfoScaleEnabled: true
+  oxceResearchScrollSpeed: 1
+  oxceResearchScrollSpeedWithCtrl: 10
+  oxceManufactureFilterSuppliesOK: false
+  oxceManufactureScrollSpeed: 1
+  oxceManufactureScrollSpeedWithCtrl: 10
+  oxcePersonalLayoutIncludingArmor: true
+  oxceManualPromotions: false
+  oxceWoundedDefendBaseIf: 90
+  oxcePlayBriefingMusicDuringEquipment: true
+  oxceNightVisionColor: 5
+  oxceAutoNightVisionThreshold: 15
+  oxceShowAccuracyOnCrosshair: 1
+  oxceReactionFireThreshold: 20
+  oxceAutoSell: true
+  oxceAutomaticPromotions: true
+  oxceEnableOffCentreShooting: true
+  oxceUniformShootingSpread: false
+  oxceCrashedOrLanded: 0
+  keyToggleQuickSearch: 113
+  keyInstaSave: 287
+  keyGeoUfoTracker: 116
+  keyGeoTechTreeViewer: 113
+  keyGeoGlobalProduction: 112
+  keyGeoGlobalResearch: 99
+  keyGeoGlobalAlienContainment: 106
+  keyGeoDailyPilotExperience: 101
+  keyGraphsZoomIn: 270
+  keyGraphsZoomOut: 269
+  keyBasescapeBuildNewBase: 110
+  keyBasescapeBaseInformation: 105
+  keyBasescapeSoldiers: 115
+  keyBasescapeEquipCraft: 101
+  keyBasescapeBuildFacilities: 102
+  keyBasescapeResearch: 114
+  keyBasescapeManufacture: 109
+  keyBasescapeTransfer: 116
+  keyBasescapePurchase: 112
+  keyBasescapeSell: 108
+  keyRemoveSoldiersFromTraining: 120
+  keyAddSoldiersToTraining: 122
+  keyCraftLoadoutSave: 286
+  keyCraftLoadoutLoad: 290
+  keyRemoveSoldiersFromAllCrafts: 120
+  keyRemoveSoldiersFromCraft: 122
+  keyRemoveEquipmentFromCraft: 120
+  keyRemoveArmorFromAllCrafts: 120
+  keyRemoveArmorFromCraft: 122
+  keyInventorySave: 286
+  keyInventoryLoad: 290
+  keyInvSavePersonalEquipment: 115
+  keyInvLoadPersonalEquipment: 108
+  keyInvShowPersonalEquipment: 112
+  keyInventoryArmor: 97
+  keyInventoryAvatar: 109
+  keyInventoryDiaryLight: 100
+  keySellAll: 120
+  keySellAllButOne: 122
+  keyTransferAll: 120
+  keyMarkAllAsSeen: 120
+  keyBattleUnitUp: 0
+  keyBattleUnitDown: 0
+  keyBattleShowLayers: 0
+  keyBattleUseSpecial: 119
+  keyBattleActionItem1: 49
+  keyBattleActionItem2: 50
+  keyBattleActionItem3: 51
+  keyBattleActionItem4: 52
+  keyBattleActionItem5: 53
+  keyNightVisionToggle: 302
+  keyNightVisionHold: 32
+  keySelectMusicTrack: 279
