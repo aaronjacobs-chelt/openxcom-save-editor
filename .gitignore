@@ -164,6 +164,7 @@ cython_debug/
 # Project-specific
 backups/
 *.bak
+*.sav
 *.sav.backup
 test_saves/
 
